@@ -1,0 +1,149 @@
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\filmProje.dll.config
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\filmProje.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\filmProje.pdb
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\x86\sqlcese40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\x86\sqlceqp40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\x86\sqlceme40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\x86\sqlceer40EN.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\x86\sqlcecompact40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\x86\sqlceca40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\amd64\sqlcese40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\amd64\sqlceqp40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\amd64\sqlceme40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\amd64\sqlceer40EN.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\amd64\sqlcecompact40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\amd64\sqlceca40.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Antlr3.Runtime.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Autofac.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Config.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Core.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Logs.NLog.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.FileSystem.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\EntityFramework.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\EntityFramework.SqlServer.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\EntityFramework.SqlServerCompact.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\ImageProcessor.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Microsoft.Owin.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Newtonsoft.Json.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\NLog.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Owin.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Data.SqlServerCe.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Net.Http.Extensions.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Net.Http.Formatting.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Net.Http.Primitives.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Web.Http.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Web.Http.WebHost.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Web.Optimization.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\WebGrease.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Autofac.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Config.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Core.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Logs.NLog.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\CKSource.FileSystem.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\EntityFramework.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\EntityFramework.SqlServer.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\EntityFramework.SqlServerCompact.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Microsoft.Owin.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Newtonsoft.Json.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\NLog.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Net.Http.Formatting.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Web.Http.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Web.Http.WebHost.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\System.Web.Optimization.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Antlr3.Runtime.pdb
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\obj\Debug\filmProje.dll
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\obj\Debug\filmProje.pdb
+C:\Users\Umut\documents\visual studio 2013\Projects\filmProje\filmProje\bin\collectionpager.dll
+E:\Projelerim\filmProje\filmProje\bin\filmProje.dll.config
+E:\Projelerim\filmProje\filmProje\bin\filmProje.dll
+E:\Projelerim\filmProje\filmProje\bin\filmProje.pdb
+E:\Projelerim\filmProje\filmProje\bin\x86\sqlcese40.dll
+E:\Projelerim\filmProje\filmProje\bin\x86\sqlceqp40.dll
+E:\Projelerim\filmProje\filmProje\bin\x86\sqlceme40.dll
+E:\Projelerim\filmProje\filmProje\bin\x86\sqlceer40EN.dll
+E:\Projelerim\filmProje\filmProje\bin\x86\sqlcecompact40.dll
+E:\Projelerim\filmProje\filmProje\bin\x86\sqlceca40.dll
+E:\Projelerim\filmProje\filmProje\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\Projelerim\filmProje\filmProje\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\Projelerim\filmProje\filmProje\bin\amd64\sqlcese40.dll
+E:\Projelerim\filmProje\filmProje\bin\amd64\sqlceqp40.dll
+E:\Projelerim\filmProje\filmProje\bin\amd64\sqlceme40.dll
+E:\Projelerim\filmProje\filmProje\bin\amd64\sqlceer40EN.dll
+E:\Projelerim\filmProje\filmProje\bin\amd64\sqlcecompact40.dll
+E:\Projelerim\filmProje\filmProje\bin\amd64\sqlceca40.dll
+E:\Projelerim\filmProje\filmProje\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\Projelerim\filmProje\filmProje\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\Projelerim\filmProje\filmProje\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Projelerim\filmProje\filmProje\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Projelerim\filmProje\filmProje\bin\Antlr3.Runtime.dll
+E:\Projelerim\filmProje\filmProje\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Projelerim\filmProje\filmProje\bin\AspNet.ScriptManager.jQuery.dll
+E:\Projelerim\filmProje\filmProje\bin\Autofac.dll
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Config.dll
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Core.dll
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.dll
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Logs.NLog.dll
+E:\Projelerim\filmProje\filmProje\bin\CKSource.FileSystem.dll
+E:\Projelerim\filmProje\filmProje\bin\EntityFramework.dll
+E:\Projelerim\filmProje\filmProje\bin\EntityFramework.SqlServer.dll
+E:\Projelerim\filmProje\filmProje\bin\EntityFramework.SqlServerCompact.dll
+E:\Projelerim\filmProje\filmProje\bin\ImageProcessor.dll
+E:\Projelerim\filmProje\filmProje\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Projelerim\filmProje\filmProje\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Projelerim\filmProje\filmProje\bin\Microsoft.Owin.dll
+E:\Projelerim\filmProje\filmProje\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Projelerim\filmProje\filmProje\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Projelerim\filmProje\filmProje\bin\Microsoft.Web.Infrastructure.dll
+E:\Projelerim\filmProje\filmProje\bin\Newtonsoft.Json.dll
+E:\Projelerim\filmProje\filmProje\bin\NLog.dll
+E:\Projelerim\filmProje\filmProje\bin\Owin.dll
+E:\Projelerim\filmProje\filmProje\bin\System.Data.SqlServerCe.dll
+E:\Projelerim\filmProje\filmProje\bin\System.Net.Http.Extensions.dll
+E:\Projelerim\filmProje\filmProje\bin\System.Net.Http.Formatting.dll
+E:\Projelerim\filmProje\filmProje\bin\System.Net.Http.Primitives.dll
+E:\Projelerim\filmProje\filmProje\bin\System.Web.Http.dll
+E:\Projelerim\filmProje\filmProje\bin\System.Web.Http.WebHost.dll
+E:\Projelerim\filmProje\filmProje\bin\System.Web.Optimization.dll
+E:\Projelerim\filmProje\filmProje\bin\WebGrease.dll
+E:\Projelerim\filmProje\filmProje\bin\Autofac.xml
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Config.xml
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Core.xml
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.xml
+E:\Projelerim\filmProje\filmProje\bin\CKSource.CKFinder.Connector.Logs.NLog.xml
+E:\Projelerim\filmProje\filmProje\bin\CKSource.FileSystem.xml
+E:\Projelerim\filmProje\filmProje\bin\EntityFramework.xml
+E:\Projelerim\filmProje\filmProje\bin\EntityFramework.SqlServer.xml
+E:\Projelerim\filmProje\filmProje\bin\EntityFramework.SqlServerCompact.xml
+E:\Projelerim\filmProje\filmProje\bin\Microsoft.Owin.xml
+E:\Projelerim\filmProje\filmProje\bin\Newtonsoft.Json.xml
+E:\Projelerim\filmProje\filmProje\bin\NLog.xml
+E:\Projelerim\filmProje\filmProje\bin\System.Net.Http.Formatting.xml
+E:\Projelerim\filmProje\filmProje\bin\System.Web.Http.xml
+E:\Projelerim\filmProje\filmProje\bin\System.Web.Http.WebHost.xml
+E:\Projelerim\filmProje\filmProje\bin\System.Web.Optimization.xml
+E:\Projelerim\filmProje\filmProje\bin\Antlr3.Runtime.pdb
+E:\Projelerim\filmProje\filmProje\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Projelerim\filmProje\filmProje\obj\Debug\filmProje.csprojResolveAssemblyReference.cache
+E:\Projelerim\filmProje\filmProje\obj\Debug\filmProje.csproj.CoreCompileInputs.cache
+E:\Projelerim\filmProje\filmProje\obj\Debug\filmProje.dll
+E:\Projelerim\filmProje\filmProje\obj\Debug\filmProje.pdb

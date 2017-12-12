@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="filmProje.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <asp:PlaceHolder runat="server">
+    </asp:PlaceHolder>
+    <script src="<%=ResolveUrl("~") %>Scripts/jquery-3.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="<%=ResolveUrl("~") %>tasarim/css/materialize.css" rel="stylesheet" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <form runat="server">
+        <ul id="slide-out" class="side-nav">
+            <li><a href="#!">2015 Filmleri</a></li>
+            <li><a href="#!">2016 Filmleri</a></li>
+            <li><a href="#!">2017 Filmleri</a></li>
+            <li><a href="#!">2018 Filmleri</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!">Aksiyon Filmleri</a></li>
+            <li><a href="#!">Bilimkurgu Filmleri</a></li>
+        </ul>
+        <div class="navbar-fixed">
+            <nav>
+              <div class="nav-wrapper genelGenislik ortala">
+                <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
+                <a href="#!" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="sass.html">Sass</a></li>
+                  <li><a href="badges.html">Components</a></li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+        <div class="tasiyici">
+            <main>
+                <div class="row">
+                    <section class="filmler col s12 m12 l9">
+                        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </section>
+                    <aside class="kenarlik col l3 hide-on-med-and-down">
+                        <div class="aramakutusu arabosluk">
+                            <h4 class="asiheh4">Filmlerde Ara</h4>
+                            <asp:TextBox ID="txtAra" CssClass="input-field" placeholder="Aranacak Kelime" runat="server"></asp:TextBox>
+                            <asp:Button ID="btnAra" runat="server" Text="Ara" CssClass="waves-effect waves-light btn width100"></asp:Button>
+                        </div>
+                        <div class="filmrobotu arabosluk">
+                            <h4 class="asiheh4">Film Robotu</h4>
+                            <asp:DropDownList ID="dropTercih" runat="server" CssClass="anasayfaselect">
+                                <asp:ListItem>Seçiniz</asp:ListItem>
+                            </asp:DropDownList>
+                            <asp:DropDownList ID="dropTarih" runat="server">
+                                <asp:ListItem>Seçiniz</asp:ListItem>
+                            </asp:DropDownList>
+                            <asp:DropDownList ID="dropKategori" runat="server">
+                                <asp:ListItem>Seçiniz</asp:ListItem>
+                            </asp:DropDownList>
+                            <asp:DropDownList ID="dropIMDB" runat="server">
+                                <asp:ListItem>Seçiniz</asp:ListItem>
+                            </asp:DropDownList>
+                            <asp:Button ID="dropSecileniAra" runat="server" Text="Getir" CssClass="waves-effect waves-light btn left width45"></asp:Button>
+                            <asp:Button ID="dropSifirla" runat="server" Text="Temizle" CssClass="waves-effect waves-light btn right width45"></asp:Button>
+                            <asp:Button ID="dropRastGetir" runat="server" Text="Rastgele Getir" CssClass="waves-effect waves-light btn width100"></asp:Button>
+                        </div>
+                        <div class="filmrobotu arabosluk">
+                            <h4 class="asiheh4">Film Kategorileri</h4>
+                            <ul class="kategoriler">
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                                <li><a href="#">Deneme</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </main>
+            <footer class="page-footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                  </div>
+                  <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-copyright">
+                <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+              </div>
+            </footer>
+        </div>
+    </form>
+    <script src="<%=ResolveUrl("~") %>Scripts/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+            $('select').material_select();
+        });
+    </script>
+</body>
+</html>

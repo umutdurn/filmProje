@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+// Colors
+@import "components/color";
+
+// Variables;
+@import "components/variables";
+
+// Reset
+@import "components/normalize";
+
+// components
+@import "components/global";
+@import "components/badges";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/navbar";
+@import "components/roboto";
+@import "components/typography";
+@import "components/transitions";
+@import "components/cards";
+@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/chips";
+@import "components/materialbox";
+@import "components/forms/forms";
+@import "components/table_of_contents";
+@import "components/sideNav";
+@import "components/preloader";
+@import "components/slider";
+@import "components/carousel";
+@import "components/tapTarget";
+@import "components/pulse";
+@import "components/date_picker/default";
+@import "components/date_picker/default.date";
+@import "components/date_picker/default.time";
+
+/*Benim Kodlarım*/
+h1,h2,h3,h4,h5{
+	font-weight: bold;
+	color: $primary-color;
+}
+.genelGenislik{
+	width:$genislik;
+
+	@media screen and (max-width: 980px){
+		width: $mobilgenislik;
+	}
+}
+.ortala{
+	margin-left: auto;
+	margin-right: auto;
+}
+.baslikmp{
+	margin:0px 0px 10px 0px;
+	padding:0px 0px 10px 0px;
+	border-bottom: 1px solid #ddd;
+}
+.altustMargin10{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.padding10{
+	padding: 10px;
+}
+.ustPaddingn20{
+	padding-top:20px;
+}
+@mixin border($radius,$radius2,$radius3,$radius4) {
+	border-top: $radius solid;
+	border-right: $radius2 solid;
+	border-left: $radius3 solid;
+	border-bottom: $radius4 solid;
+}
+.gradientblack{
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.15) 10%, rgba(0,0,0,0.71) 48%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 10%,rgba(0,0,0,0.71) 48%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 10%,rgba(0,0,0,0.71) 48%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b5000000',GradientType=0 );
+}
+.width100{
+	width:100%;
+}
+.width45{
+	width:45%;
+}
+.filmaltbilgi{
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	height: 0px;
+	overflow: hidden;
+	transition: 0.5s;
+	color: #fff;
+	padding-left: 10px; 
+	@extend .gradientblack;
+}
+.tasiyici{
+	@extend .genelGenislik;
+	@extend .ortala;
+	@extend .altustMargin10;
+	@extend .ustPaddingn20;
+	background: #fff;
+
+	@media screen and (max-width: 980px){
+		width: 100%;
+	}
+}
+.filmafis{
+	position:relative;
+
+	&:hover > .filmaltbilgi{
+		height:150px;
+		padding-top:70px;
+		transition: 0.5s;
+		@extend .gradientblack;
+	}
+}
+.kenarlik{
+	border-left: 1px solid #ddd;
+
+	.asiheh4{
+
+		font-size: 19px;
+		padding: 0px 0px 10px 0px;
+		margin: 0px 0px 10px 0px;
+		border-bottom: 1px solid #ddd;
+		font-weight: bold;
+
+	}
+}
+.arabosluk{
+	margin-bottom: 20px;
+}
+.kategoriler{
+	li{
+		float: left;
+		@extend .width45;
+		display: block;
+		margin-bottom: 5px;
+		a{
+			color: $primary-color;
+			transition: 0.5s;
+			display: block;
+			font-weight: bolder;
+			&:hover{
+				margin-left:10px;
+				transition: 0.5s;
+			}
+		}
+	}
+}
+.filmanabaslik{
+	font-size: 20px;
+	@extend .baslikmp;
+}
+.iframePart{
+	iframe{
+		@extend .width100;
+		min-height: 400px;
+	}
+}
+.filmkonubaslik{
+	font-size: 17px;
+	@extend .baslikmp;
+	@extend .altustMargin10;
+}
+.filmbilgileri{
+	img{
+		@extend .width100;
+		border: 2px solid $primary-color;
+	}
+
+	a{
+		text-decoration: underline;
+	}
+}
+.fbilgi{
+	font-weight: bold;
+	color: $primary-color;
+	margin-bottom: 10px;
+	@media screen and(max-width:600px){
+		margin-bottom:0px;
+		margin-top: 10px;
+	}
+}
+.katAdi{
+	float: left;
+	margin-right: 3px;
+
+}
+.fbilgiler{
+
+	padding: 10px !important;
+	background: #f1f1f1;
+
+}
+.filmoyver{
+	@extend .fbilgi;
+	padding: 10px 0px;
+	margin:10px 0px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.clear{clear:both;}
+
+.yildizler{position: relative;}
+.yildizKapa{position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;}
+
+.btnclear{
+	border: none;
+	width:20px;
+	height: 21px;
+	float: left;
+	background: url('../yildiz/yildiz_nohover.png') no-repeat center;
+}
+
+.yildiz1{@extend .btnclear;}
+.yildiz2{@extend .btnclear;}
+.yildiz3{@extend .btnclear;}
+.yildiz4{@extend .btnclear;}
+.yildiz5{@extend .btnclear;}
+
+.yildiznohover{
+	background: url('../yildiz/yildiz_nohover.png') no-repeat center;
+}
+
+.yildizhover{
+	background: url('../yildiz/yildiz_hover.png') no-repeat center;
+}
+.izlenmeSayisi{
+	background: $primary-color;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 15px;
+	color: #fff;
+}
