@@ -11,6 +11,11 @@ namespace filmProje.film_ekle
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["ADMİN"] == null)
+            {
+                Response.Redirect("default");
+            }
+
             if (!IsPostBack)
             {
                 panelGetir();

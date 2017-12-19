@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Web;
 using System.Web.Routing;
+using System.Web.UI;
 using Microsoft.AspNet.FriendlyUrls;
 
 namespace filmProje
@@ -14,5 +15,6 @@ namespace filmProje
             settings.AutoRedirectMode = RedirectMode.Permanent;
             routes.EnableFriendlyUrls(settings);
         }
+
     }
 }

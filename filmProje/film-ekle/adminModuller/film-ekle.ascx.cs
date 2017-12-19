@@ -209,7 +209,7 @@ namespace filmProje.film_ekle.adminModuller
             cmdKomut.Parameters.Add("@URL", SqlDbType.NVarChar);
             cmdKomut.Parameters["@URL"].Value = txtFilmURl.Text;
 
-            string kategoriler = "";
+            string kategoriler = ",";
 
             foreach (ListItem item in chckKategoriler.Items)
             {
@@ -283,7 +283,7 @@ namespace filmProje.film_ekle.adminModuller
 
         protected string yonetmenGetir() {
 
-            string yonetmenler = "";
+            string yonetmenler = ",";
 
             dtYonetmenler = (DataTable)ViewState["Yonetmenler"];
 
@@ -344,7 +344,7 @@ namespace filmProje.film_ekle.adminModuller
         protected string oyuncuGetir()
         {
 
-            string oyuncular = "";
+            string oyuncular = ",";
 
             dtOyuncular = (DataTable)ViewState["Oyuncular"];
 
@@ -470,7 +470,6 @@ namespace filmProje.film_ekle.adminModuller
             rptYonetmenler.DataBind();
 
             txtYonetmenler.Text = "";
-            txtYonetmenler.Focus();
         }
 
         protected void btnOyuncuKayit_Click(object sender, EventArgs e)
@@ -487,7 +486,6 @@ namespace filmProje.film_ekle.adminModuller
             rptOyuncular.DataBind();
 
             txtOyuncular.Text = "";
-            txtOyuncular.Focus();
         }
 
         protected void rptYonetmenler_ItemCommand(object source, RepeaterCommandEventArgs e)
@@ -658,5 +656,9 @@ namespace filmProje.film_ekle.adminModuller
             }
         }
 
+        protected void txtFilmBasligi_TextChanged(object sender, EventArgs e)
+        {
+            txtFilmURl.Text = urlOlustur(txtFilmBasligi.Text);
+        }
     }
 }

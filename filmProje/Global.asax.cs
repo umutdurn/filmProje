@@ -17,5 +17,20 @@ namespace filmProje
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+        void Application_Error(object sender, EventArgs e)
+        {
+
+            Exception olusanHata = Server.GetLastError();
+
+            using (System.IO.FileStream stream = new System.IO.FileStream(Server.MapPath("~/HataLogDosyasi.txt"), System.IO.FileMode.Append, System.IO.FileAccess.Write))
+            {
+                System.IO.StreamWriter writer = new System.IO.StreamWriter(stream);
+                writer.WriteLine("Hata Zamanı " + DateTime.Now.ToString() + "\n" + olusanHata.InnerException + "\n\n");
+                writer.Close();
+            }
+        }
+
+
     }
 }

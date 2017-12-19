@@ -143,7 +143,7 @@ E:\Projelerim\filmProje\filmProje\bin\System.Web.Http.WebHost.xml
 E:\Projelerim\filmProje\filmProje\bin\System.Web.Optimization.xml
 E:\Projelerim\filmProje\filmProje\bin\Antlr3.Runtime.pdb
 E:\Projelerim\filmProje\filmProje\bin\Microsoft.AspNet.FriendlyUrls.xml
-E:\Projelerim\filmProje\filmProje\obj\Debug\filmProje.csprojResolveAssemblyReference.cache
 E:\Projelerim\filmProje\filmProje\obj\Debug\filmProje.csproj.CoreCompileInputs.cache
 E:\Projelerim\filmProje\filmProje\obj\Debug\filmProje.dll
 E:\Projelerim\filmProje\filmProje\obj\Debug\filmProje.pdb
+E:\Projelerim\filmProje\filmProje\obj\Debug\filmProje.csprojResolveAssemblyReference.cache

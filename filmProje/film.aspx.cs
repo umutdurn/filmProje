@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using Microsoft.AspNet.FriendlyUrls;
 using System.Data.SqlClient;
 using System.Data;
+using System.Text.RegularExpressions;
 
 namespace filmProje
 {
@@ -23,7 +24,6 @@ namespace filmProje
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            //Response.Cookies["syfYildiz"].Expires = DateTime.Now.AddDays(-1);
             if (dbBag.State == ConnectionState.Closed)
             {
                 dbBag = baglan.dbBaglanti();
@@ -36,7 +36,94 @@ namespace filmProje
 
                 yildizGetir();
                 incelemeYukselt();
+
+                YorumlarGetir();
             }
+
+            //Response.Cookies["syfYildiz_" + ViewState["filmID"].ToString()].Expires = DateTime.Now.AddDays(-1);
+        }
+
+        protected void YorumlarGetir() {
+
+            dtTable.Clear();
+
+            dtrAdapt = new SqlDataAdapter("Select * From film_Yorumlar Where FilmID = '"+ ViewState["filmID"].ToString() + "' and YorumOnay = '1' Order By ID Desc",dbBag);
+            dtrAdapt.Fill(dtTable);
+
+            ltrYorumSayi.Text = dtTable.Rows.Count.ToString();
+
+            rptFilmYorumlar.DataSource = dtTable;
+            rptFilmYorumlar.DataBind();
+
+        }
+
+        public string ratingGetir() {
+
+            string rating = "";
+
+            double toplamCarpim = 0;
+            double toplamOy = 0;
+
+            double toplamoy5 = 0;
+            double toplamoy4 = 0;
+            double toplamoy3 = 0;
+            double toplamoy2 = 0;
+            double toplamoy1 = 0;
+
+            cmdKomut = new SqlCommand("Select COUNT(Oy) as Toplam From film_Oylar Where FilmUrl = '" + segmentler[0] + "' and Oy = '5'", dbBag);
+            dtrData = cmdKomut.ExecuteReader();
+            while (dtrData.Read())
+            {
+                toplamoy5 = Convert.ToDouble(dtrData["Toplam"]);
+            }
+            dtrData.Close();
+
+            cmdKomut = new SqlCommand("Select COUNT(Oy) as Toplam From film_Oylar Where FilmUrl = '" + segmentler[0] + "' and Oy = '4'", dbBag);
+            dtrData = cmdKomut.ExecuteReader();
+            while (dtrData.Read())
+            {
+                toplamoy4 = Convert.ToDouble(dtrData["Toplam"]);
+            }
+            dtrData.Close();
+
+            cmdKomut = new SqlCommand("Select COUNT(Oy) as Toplam From film_Oylar Where FilmUrl = '" + segmentler[0] + "' and Oy = '3'", dbBag);
+            dtrData = cmdKomut.ExecuteReader();
+            while (dtrData.Read())
+            {
+                toplamoy3 = Convert.ToDouble(dtrData["Toplam"]);
+            }
+            dtrData.Close();
+
+            cmdKomut = new SqlCommand("Select COUNT(Oy) as Toplam From film_Oylar Where FilmUrl = '" + segmentler[0] + "' and Oy = '2'", dbBag);
+            dtrData = cmdKomut.ExecuteReader();
+            while (dtrData.Read())
+            {
+                toplamoy2 = Convert.ToDouble(dtrData["Toplam"]);
+            }
+            dtrData.Close();
+
+            cmdKomut = new SqlCommand("Select COUNT(Oy) as Toplam From film_Oylar Where FilmUrl = '" + segmentler[0] + "' and Oy = '1'", dbBag);
+            dtrData = cmdKomut.ExecuteReader();
+            while (dtrData.Read())
+            {
+                toplamoy1 = Convert.ToDouble(dtrData["Toplam"]);
+            }
+            dtrData.Close();
+
+            double toplamsonuc5 = toplamoy5 * 5;
+            double toplamsonuc4 = toplamoy4 * 4;
+            double toplamsonuc3 = toplamoy3 * 3;
+            double toplamsonuc2 = toplamoy2 * 2;
+            double toplamsonuc1 = toplamoy1 * 1;
+
+            toplamCarpim = toplamsonuc1 + toplamsonuc2 + toplamsonuc3 + toplamsonuc4 + toplamsonuc5;
+            toplamOy = toplamoy1 + toplamoy2 + toplamoy3 + toplamoy4 + toplamoy5;
+
+            double ratingSonuc = (toplamCarpim / toplamOy) * 2;
+
+            rating = Math.Round(ratingSonuc, 1).ToString();
+
+            return rating;
         }
 
         protected void filmgetir() {
@@ -45,6 +132,9 @@ namespace filmProje
             dtrAdapt.Fill(dtTable);
 
             ViewState["filmID"] = dtTable.Rows[0]["ID"].ToString();
+            ltrFilmAdi.Text = dtTable.Rows[0]["Baslik"].ToString();
+            ltrOrjinalAdi.Text = dtTable.Rows[0]["OrjinalAdi"].ToString();
+            ltrFilmAdiYorum.Text = dtTable.Rows[0]["OrjinalAdi"].ToString();
             Page.Title = dtTable.Rows[0]["Baslik"].ToString();
             Page.MetaDescription = dtTable.Rows[0]["MetaDesc"].ToString();
 
@@ -57,7 +147,6 @@ namespace filmProje
 
             foreach (RepeaterItem item in rptfilm.Items)
             {
-                DropDownList dropPart = (DropDownList)item.FindControl("dropPartlar");
                 Literal literal = (Literal)item.FindControl("ltrIframe");
                 int partsayi = 1;
                 cmdKomut = new SqlCommand("Select * From film_Partlar Where FilmID = '" + ViewState["filmID"].ToString() + "'",dbBag);
@@ -73,7 +162,7 @@ namespace filmProje
                         literal.Text = dtrData["Iframe"].ToString();
                     }
 
-                    dropPart.Items.Add(part);
+                    dropPartlar.Items.Add(part);
 
                     partsayi++;
                 }
@@ -108,7 +197,7 @@ namespace filmProje
                 dtrData = cmdKomut.ExecuteReader();
                 if (dtrData.Read())
                 {
-                    donen += "<div class=\"katAdi\" itemprop=\"genre\"><a href=\""+ Page.ResolveUrl("~/kategori/") + dtrData["URL"].ToString() + "\" title=\"" + dtrData["KategoriAdi"].ToString() + "\">" + dtrData["KategoriAdi"].ToString() + "</a></div>";
+                    donen += "<div class=\"katAdi\" itemprop=\"genre\"><a href=\""+ Page.ResolveUrl("~/kategori/") + dtrData["URL"].ToString() + "\" title=\"" + dtrData["KategoriAdi"].ToString() + " Filmleri\">" + dtrData["KategoriAdi"].ToString() + "</a></div>";
                 }
                 dtrData.Close();
             }
@@ -130,7 +219,7 @@ namespace filmProje
                 dtrData = cmdKomut.ExecuteReader();
                 if (dtrData.Read())
                 {
-                    donen += "<a href=\"" + Page.ResolveUrl("~/yonetmen/") + dtrData["YonetmenURL"].ToString() + "\" class=\"katAdi\" itemprop=\"director\" itemscope itemtype=\"http://schema.org/Person\" title=\"" + dtrData["Yonetmen"].ToString() + "\">" + dtrData["Yonetmen"].ToString() + "</a>";
+                    donen += "<a href=\"" + Page.ResolveUrl("~/yonetmen/") + dtrData["YonetmenURL"].ToString() + "\" class=\"katAdi\" itemprop=\"director\" itemscope itemtype=\"http://schema.org/Person\" title=\"" + dtrData["Yonetmen"].ToString() + "\"><span itemprop=\"name\">" + dtrData["Yonetmen"].ToString() + "</span></a>";
                 }
                 dtrData.Close();
             }
@@ -152,7 +241,7 @@ namespace filmProje
                 dtrData = cmdKomut.ExecuteReader();
                 if (dtrData.Read())
                 {
-                    donen += "<a href=\"" + Page.ResolveUrl("~/oyuncu/") + dtrData["OyuncuURL"].ToString() + "\" class=\"katAdi\" itemprop=\"actor\" itemscope itemtype=\"http://schema.org/Person\" title=\"" + dtrData["Oyuncu"].ToString() + "\">" + dtrData["Oyuncu"].ToString() + "</a>";
+                    donen += "<a href=\"" + Page.ResolveUrl("~/oyuncu/") + dtrData["OyuncuURL"].ToString() + "\" class=\"katAdi\" itemprop=\"actor\" itemscope itemtype=\"http://schema.org/Person\" title=\"" + dtrData["Oyuncu"].ToString() + "\"><span itemprop=\"name\">" + dtrData["Oyuncu"].ToString() + "</span></a>";
                 }
                 dtrData.Close();
             }
@@ -178,11 +267,11 @@ namespace filmProje
 
         protected void rptfilm_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            HttpCookie yildizCookie = Request.Cookies["syfYildiz"];
+            HttpCookie yildizCookie = Request.Cookies["syfYildiz_" + ViewState["filmID"].ToString()];
 
             if (yildizCookie != null)
             {
-                string syrURL = Request.Cookies["syfYildiz"]["syfURL"].ToString();
+                string syrURL = Request.Cookies["syfYildiz_" + ViewState["filmID"].ToString()]["syfURL"].ToString();
 
                 if (syrURL != segmentler[0])
                 {
@@ -207,23 +296,23 @@ namespace filmProje
 
         protected void yildizcookie(string verilen) {
 
-            Response.Cookies["syfYildiz"]["syfURL"] = segmentler[0];
-            Response.Cookies["syfYildiz"]["Yildiz"] = verilen;
-            Response.Cookies["syfYildiz"].Expires = DateTime.Now.AddYears(1);
+            Response.Cookies["syfYildiz_" + ViewState["filmID"].ToString()]["syfURL"] = segmentler[0];
+            Response.Cookies["syfYildiz_" + ViewState["filmID"].ToString()]["Yildiz"] = verilen;
+            Response.Cookies["syfYildiz_" + ViewState["filmID"].ToString()].Expires = DateTime.Now.AddYears(1);
         
         }
 
         protected void yildizGetir() {
 
-            HttpCookie yildizCookie = Request.Cookies["syfYildiz"];
+            HttpCookie yildizCookie = Request.Cookies["syfYildiz_" + ViewState["filmID"].ToString()];
 
             if (yildizCookie != null)
             {
-                string syrURL = Request.Cookies["syfYildiz"]["syfURL"].ToString();
+                string syrURL = Request.Cookies["syfYildiz_" + ViewState["filmID"].ToString()]["syfURL"].ToString();
 
                 if (syrURL == segmentler[0])
                 {
-                    int yildizDeger = Convert.ToInt32(Request.Cookies["syfYildiz"]["Yildiz"].ToString());
+                    int yildizDeger = Convert.ToInt32(Request.Cookies["syfYildiz_" + ViewState["filmID"].ToString()]["Yildiz"].ToString());
 
                     foreach (RepeaterItem item in rptfilm.Items)
                     {
@@ -304,7 +393,7 @@ namespace filmProje
             }
             dtrData.Close();
 
-            cmdKomut = new SqlCommand("Update film_Filmler SET Inceleme = '" + sayi.ToString() + "'", dbBag);
+            cmdKomut = new SqlCommand("Update film_Filmler SET Inceleme = '" + sayi.ToString() + "' Where URL = '" + segmentler[0] + "'", dbBag);
             cmdKomut.ExecuteNonQuery();
         }
 
@@ -321,6 +410,90 @@ namespace filmProje
             dtrData.Close();
 
             return toplam;
+        }
+
+        protected void btnYorumYap_Click(object sender, EventArgs e)
+        {
+            if (txtYorum.Text != "" && txtYorumAdi.Text != "" && txtYorumEmail.Text != "")
+            {
+                try
+                {
+                    cmdKomut = new SqlCommand("Insert Into film_Yorumlar(Email,Nick,Yorum,YorumOnay,FilmID,YorumTarih) Values(@Email,@Nick,@Yorum,@YorumOnay,@FilmID,@YorumTarih)", dbBag);
+                    cmdKomut.Parameters.Add("@Email", SqlDbType.NVarChar);
+                    cmdKomut.Parameters["@Email"].Value = HTMLTemizle(txtYorumEmail.Text);
+
+                    cmdKomut.Parameters.Add("@Nick", SqlDbType.NVarChar);
+                    cmdKomut.Parameters["@Nick"].Value = HTMLTemizle(txtYorumAdi.Text);
+
+                    cmdKomut.Parameters.Add("@Yorum", SqlDbType.NVarChar);
+                    cmdKomut.Parameters["@Yorum"].Value = HTMLTemizle(txtYorum.Text);
+
+                    cmdKomut.Parameters.Add("@YorumOnay", SqlDbType.NVarChar);
+                    cmdKomut.Parameters["@YorumOnay"].Value = "0";
+
+                    cmdKomut.Parameters.Add("@FilmID", SqlDbType.NVarChar);
+                    cmdKomut.Parameters["@FilmID"].Value = ViewState["filmID"].ToString();
+
+                    cmdKomut.Parameters.Add("@YorumTarih", SqlDbType.NVarChar);
+                    cmdKomut.Parameters["@YorumTarih"].Value = DateTime.Now.ToString();
+
+                    cmdKomut.ExecuteNonQuery();
+
+                    ltrYorum.Text = "Yorumunuz kayıt edildi. Yönetici onayından sonra yayınlanacak.";
+                }
+                catch (Exception)
+                {
+                    ltrYorum.Text = "Yorumunuzu kayıt ederken hata oluştu. Tekrar deneyin.";
+                    throw;
+                }
+            }
+            else
+            {
+                ltrYorum.Text = "Hata! Lütfen tüm alanları doldurun.";
+            }
+
+            
+        }
+
+        public static string HTMLTemizle(string text)
+        {
+            return Regex.Replace(text, @"<(.|\n)*?>", string.Empty);
+        }
+
+        public string zaman(DateTime zamanarasi)
+        {
+            TimeSpan zamanfarki = DateTime.Now - zamanarasi;
+            int saniye = Convert.ToInt32(Math.Round(zamanfarki.TotalSeconds));
+            int dakika = Convert.ToInt32(Math.Round(zamanfarki.TotalSeconds / 60));
+            int saat = Convert.ToInt32(Math.Round(zamanfarki.TotalSeconds / 3600));
+            int gun = Convert.ToInt32(Math.Round(zamanfarki.TotalSeconds / 86400));
+            int hafta = Convert.ToInt32(Math.Round(zamanfarki.TotalSeconds / 604800));
+            int ay = Convert.ToInt32(Math.Round(zamanfarki.TotalSeconds / 2419200));
+            int yil = Convert.ToInt32(Math.Round(zamanfarki.TotalSeconds / 29030400));
+
+            if (saniye <= 59)
+
+                if (saniye == 0)
+                {
+                    return "Şimdi Yazıldı";
+                }
+                else
+                {
+                    return saniye + " saniye önce";
+                }
+
+            else if (dakika <= 59)
+
+                return dakika + " dakika önce";
+            else if (saat <= 23)
+                return saat + " saat önce";
+            else if (gun <= 6)
+                return gun + " gün önce";
+            else if (ay <= 11)
+                return ay + " ay önce";
+            else
+                return yil + " yıl önce";
+
         }
     }
 }

@@ -37,15 +37,23 @@ namespace filmProje
 
         protected void BaslikGetir() {
 
-            Page.Title = "IMDB Puanı " + segmentler[0].Replace("-", ".") + " ve Üzeri Olan Filmler";
-            Page.MetaDescription = "IMDB puanı " + segmentler[0].Replace("-", ".") + " ve üzeri olan filmleri web sitemizin IMDB sayfasını ziyaret ederek bulabilirsiniz.";
+            if (Request["Page"] != null)
+            {
+                Page.Title = "IMDB Puanı " + segmentler[0].Replace("-", ".") + " ve Üzeri Olan Filmler - Sayfa " + Request["Page"];
+                Page.MetaDescription = Request["Page"] + ". Sayfa - IMDB puanı " + segmentler[0].Replace("-", ".") + " ve üzeri olan filmleri web sitemizin IMDB sayfasını ziyaret ederek bulabilirsiniz.";
+            }
+            else
+            {
+                Page.Title = "IMDB Puanı " + segmentler[0].Replace("-", ".") + " ve Üzeri Olan Filmler";
+                Page.MetaDescription = "IMDB puanı " + segmentler[0].Replace("-", ".") + " ve üzeri olan filmleri web sitemizin IMDB sayfasını ziyaret ederek bulabilirsiniz.";
+            }
 
         }
 
         protected void filmlerGetir()
         {
 
-            dtrAdapt = new SqlDataAdapter("Select * From film_Filmler Where IMDB >= '" + segmentler[0].Replace("-", ".") + "'", dbBag);
+            dtrAdapt = new SqlDataAdapter("Select * From film_Filmler Where IMDB >= '" + segmentler[0].Replace("-", ".") + "' Order By ID Desc", dbBag);
             dtrAdapt.Fill(dtTable);
 
             CollectionPager1.DataSource = dtTable.DefaultView;

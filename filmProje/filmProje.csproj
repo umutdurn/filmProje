@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -181,9 +183,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\upload\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404.aspx" />
     <Content Include="ckfinder\CHANGELOG.html" />
     <Content Include="ckfinder\ckfinder.html" />
     <Content Include="ckfinder\ckfinder.js" />
@@ -541,12 +543,16 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="favico.png" />
     <Content Include="film-ekle\adminModuller\film-ekle.ascx" />
     <Content Include="film-ekle\adminModuller\kategoriler.ascx" />
+    <Content Include="film-ekle\adminModuller\siteharitasi.ascx" />
+    <Content Include="film-ekle\adminModuller\yorumlar.ascx" />
     <Content Include="film-ekle\CSS\colorbox.css" />
     <Content Include="film-ekle\CSS\colorpicker.css" />
     <Content Include="film-ekle\CSS\fullcalendar.css" />
     <Content Include="film-ekle\CSS\jquery.cleditor.css" />
+    <Content Include="film-ekle\CSS\login.css" />
     <Content Include="film-ekle\CSS\normalize.css" />
     <Content Include="film-ekle\CSS\style.css" />
     <Content Include="film-ekle\CSS\tipsy.css" />
@@ -784,9 +790,29 @@
     <Content Include="film-ekle\yonetim.aspx" />
     <Content Include="film.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="HataLogDosyasi.txt" />
     <Content Include="images\deneme.jpg" />
+    <Content Include="images\logo.png" />
     <Content Include="images\sil.png" />
+    <Content Include="images\upload\ailecek-saskiniz-izle.jpg" />
+    <Content Include="images\upload\barry-seal-kacakci-izle.jpg" />
+    <Content Include="images\upload\cizgi-otesi-izle.jpg" />
+    <Content Include="images\upload\coverfield-movie-izle.jpg" />
+    <Content Include="images\upload\dunkirk-izle.jpg" />
+    <Content Include="images\upload\kickboxer-misilleme-izle.jpg" />
+    <Content Include="images\upload\kingsman-2-altin-cember-izle.jpg" />
+    <Content Include="images\upload\o-izle.jpg" />
+    <Content Include="images\upload\oyun-gecesi-full-izle.jpg" />
+    <Content Include="images\upload\pes-etme-izle.jpg" />
+    <Content Include="images\upload\star-wars-8-son-jedi-izle.jpg" />
+    <Content Include="images\upload\thor-ragnarok-izle.jpg" />
+    <Content Include="images\upload\vincentten-sevgilerle-izle.jpg" />
     <Content Include="imdb.aspx" />
+    <Content Include="oyuncu.aspx" />
+    <Content Include="robots.txt" />
+    <Content Include="Scripts\WebForms\MsAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MsAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="tasarim\css\404.css" />
     <Content Include="tasarim\yildiz\yildiz_hover.png" />
     <Content Include="tasarim\yildiz\yildiz_nohover.png" />
     <Content Include="kategori.aspx" />
@@ -1284,6 +1310,11 @@
     <Content Include="tasarim\sass\components\_variables.scss" />
     <Content Include="tasarim\sass\components\_waves.scss" />
     <Content Include="tasarim\sass\materialize.scss" />
+    <Content Include="ulke.aspx" />
+    <Content Include="yapim-yili.aspx" />
+    <Content Include="yonetmen.aspx" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -1302,7 +1333,6 @@
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\msvcr90.dll" />
     <Content Include="Scripts\ckeditor\styles.js" />
     <Content Include="Default.aspx" />
-    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
@@ -1311,7 +1341,6 @@
     </Content>
     <Content Include="Bundle.config" />
     <None Include="Project_Readme.html" />
-    <Content Include="Site.Mobile.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1322,8 +1351,16 @@
     <None Include="_bin_deployableAssemblies\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Compression.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1344,6 +1381,20 @@
     </Compile>
     <Compile Include="film-ekle\adminModuller\kategoriler.ascx.designer.cs">
       <DependentUpon>kategoriler.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="film-ekle\adminModuller\siteharitasi.ascx.cs">
+      <DependentUpon>siteharitasi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="film-ekle\adminModuller\siteharitasi.ascx.designer.cs">
+      <DependentUpon>siteharitasi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="film-ekle\adminModuller\yorumlar.ascx.cs">
+      <DependentUpon>yorumlar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="film-ekle\adminModuller\yorumlar.ascx.designer.cs">
+      <DependentUpon>yorumlar.ascx</DependentUpon>
     </Compile>
     <Compile Include="film-ekle\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -1390,6 +1441,14 @@
     <Compile Include="kategori.aspx.designer.cs">
       <DependentUpon>kategori.aspx</DependentUpon>
     </Compile>
+    <Compile Include="md5.cs" />
+    <Compile Include="oyuncu.aspx.cs">
+      <DependentUpon>oyuncu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oyuncu.aspx.designer.cs">
+      <DependentUpon>oyuncu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -1398,12 +1457,12 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    <Compile Include="ulke.aspx.cs">
+      <DependentUpon>ulke.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    <Compile Include="ulke.aspx.designer.cs">
+      <DependentUpon>ulke.aspx</DependentUpon>
     </Compile>
     <Compile Include="Veritabani.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
@@ -1412,6 +1471,20 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="yapim-yili.aspx.cs">
+      <DependentUpon>yapim-yili.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yapim-yili.aspx.designer.cs">
+      <DependentUpon>yapim-yili.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetmen.aspx.cs">
+      <DependentUpon>yonetmen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetmen.aspx.designer.cs">
+      <DependentUpon>yonetmen.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
