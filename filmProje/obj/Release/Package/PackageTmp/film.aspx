@@ -136,21 +136,21 @@
         </ContentTemplate>
     </asp:UpdatePanel>
     <script type="text/javascript">
-
-        $(document).ready(function(){
-			var kontrol=0;
-			$(".yildizler input").mouseover(function () {
-					var index=$(this).index();
-					for(i=index;i>=0;i--){
-					    $(".yildizler input:eq(" + i + ")").addClass("yildizhover");
-					}
-			})
-			$(".yildizler input").mouseout(function () {
-				if(kontrol==0){
-				    $(".yildizler input").removeClass("yildizhover");
-				}
-			})
-		})
-
+        function pageLoad(sender, args) {
+            $(document).ready(function () {
+                var kontrol = 0;
+                $(".yildizler input").mouseover(function () {
+                    var index = $(this).index();
+                    for (i = index; i >= 0; i--) {
+                        $(".yildizler input:eq(" + i + ")").addClass("yildizhover");
+                    }
+                })
+                $(".yildizler input").mouseout(function () {
+                    if (kontrol == 0) {
+                        $(".yildizler input").removeClass("yildizhover");
+                    }
+                })
+            })
+        }
 	</script>
 </asp:Content>

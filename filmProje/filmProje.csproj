@@ -186,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.aspx" />
+    <Content Include="ara.aspx" />
     <Content Include="ckfinder\CHANGELOG.html" />
     <Content Include="ckfinder\ckfinder.html" />
     <Content Include="ckfinder\ckfinder.js" />
@@ -789,7 +790,7 @@
     <Content Include="film-ekle\Javascript\Uniform\jquery.uniform.js" />
     <Content Include="film-ekle\yonetim.aspx" />
     <Content Include="film.aspx" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="tasarim\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="HataLogDosyasi.txt" />
     <Content Include="images\deneme.jpg" />
     <Content Include="images\logo.png" />
@@ -851,9 +852,9 @@
     <Content Include="Scripts\velocity.min.js" />
     <Content Include="Scripts\waves.js" />
     <Content Include="packages.config" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="tasarim\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="tasarim\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="tasarim\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="film-ekle\yonetim.Master" />
     <Content Include="film-ekle\Images\Avatar\Thumbs.db" />
     <Content Include="film-ekle\Images\ColorBox\Thumbs.db" />
@@ -1258,16 +1259,16 @@
     <Content Include="ckfinder\lang\bg.json" />
     <Content Include="ckfinder\lang\az.json" />
     <Content Include="Scripts\jquery-3.2.1.min.js" />
-    <Content Include="fonts\roboto\Roboto-Bold.woff" />
-    <Content Include="fonts\roboto\Roboto-Bold.woff2" />
-    <Content Include="fonts\roboto\Roboto-Light.woff" />
-    <Content Include="fonts\roboto\Roboto-Light.woff2" />
-    <Content Include="fonts\roboto\Roboto-Medium.woff" />
-    <Content Include="fonts\roboto\Roboto-Medium.woff2" />
-    <Content Include="fonts\roboto\Roboto-Regular.woff" />
-    <Content Include="fonts\roboto\Roboto-Regular.woff2" />
-    <Content Include="fonts\roboto\Roboto-Thin.woff" />
-    <Content Include="fonts\roboto\Roboto-Thin.woff2" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Bold.woff" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Bold.woff2" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Light.woff" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Light.woff2" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Medium.woff" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Medium.woff2" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Regular.woff" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Regular.woff2" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Thin.woff" />
+    <Content Include="tasarim\fonts\roboto\Roboto-Thin.woff2" />
     <Content Include="tasarim\css\materialize.css" />
     <Content Include="tasarim\sass\components\date_picker\_default.date.scss" />
     <Content Include="tasarim\sass\components\date_picker\_default.scss" />
@@ -1360,6 +1361,13 @@
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="ara.aspx.cs">
+      <DependentUpon>ara.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ara.aspx.designer.cs">
+      <DependentUpon>ara.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Compression.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -1486,6 +1494,7 @@
     <Compile Include="yonetmen.aspx.designer.cs">
       <DependentUpon>yonetmen.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ZipState.cs" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

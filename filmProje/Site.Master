@@ -76,7 +76,7 @@
                         <div class="aramakutusu arabosluk">
                             <h4 class="asiheh4">Filmlerde Ara</h4>
                             <asp:TextBox ID="txtAra" CssClass="input-field" placeholder="Aranacak Kelime" runat="server"></asp:TextBox>
-                            <asp:Button ID="btnAra" runat="server" Text="Ara" CssClass="waves-effect waves-light btn width100"></asp:Button>
+                            <asp:Button ID="btnAra" runat="server" Text="Ara" CssClass="waves-effect waves-light btn width100" OnClick="btnAra_Click"></asp:Button>
                         </div>
                         <div class="filmrobotu arabosluk">
                             <h4 class="asiheh4">Film Robotu</h4>
@@ -167,7 +167,16 @@
         </div>
     </form>
     <script src="<%=ResolveUrl("~") %>Scripts/materialize.min.js"></script>
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111347331-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111347331-1');
+    </script>
+
     <script type="text/javascript">
         $(document).ready(function () {
             $(".button-collapse").sideNav();

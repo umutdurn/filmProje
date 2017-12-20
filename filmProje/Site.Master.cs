@@ -52,5 +52,10 @@ namespace filmProje
             rptTariheGoreUst.DataBind();
 
         }
+
+        protected void btnAra_Click(object sender, EventArgs e)
+        {
+            Response.Redirect(Page.ResolveUrl("~/") + "ara?film=" + txtAra.Text);
+        }
     }
 }
