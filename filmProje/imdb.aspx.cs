@@ -21,6 +21,12 @@ namespace filmProje
 
         IList<string> segmentler = HttpContext.Current.Request.GetFriendlyUrlSegments();
 
+        MetaTagInfo MetaTags
+        {
+            get { return ViewState["METATAG"] as MetaTagInfo; }
+            set { ViewState["METATAG"] = value; }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (dbBag.State == ConnectionState.Closed)
@@ -33,20 +39,37 @@ namespace filmProje
                 filmlerGetir();
                 BaslikGetir();
             }
+
+            MetaTagGenerator metaTagGenerator = new MetaTagGenerator();
+            metaTagGenerator.Generate(MetaTags);
         }
 
         protected void BaslikGetir() {
 
+            string title = "";
+
             if (Request["Page"] != null)
             {
                 Page.Title = "IMDB Puanı " + segmentler[0].Replace("-", ".") + " ve Üzeri Olan Filmler - Sayfa " + Request["Page"];
+                title = "IMDB Puanı " + segmentler[0].Replace("-", ".") + " ve Üzeri Olan Filmler - Sayfa " + Request["Page"];
                 Page.MetaDescription = Request["Page"] + ". Sayfa - IMDB puanı " + segmentler[0].Replace("-", ".") + " ve üzeri olan filmleri web sitemizin IMDB sayfasını ziyaret ederek bulabilirsiniz.";
             }
             else
             {
                 Page.Title = "IMDB Puanı " + segmentler[0].Replace("-", ".") + " ve Üzeri Olan Filmler";
+                title= "IMDB Puanı " + segmentler[0].Replace("-", ".") + " ve Üzeri Olan Filmler";
                 Page.MetaDescription = "IMDB puanı " + segmentler[0].Replace("-", ".") + " ve üzeri olan filmleri web sitemizin IMDB sayfasını ziyaret ederek bulabilirsiniz.";
             }
+
+            MetaTags = new MetaTagInfo
+            {
+                Description = Page.MetaDescription,
+                Image = "http://" + Request.Url.Host.ToLower() + "/images/screen.png",
+                Site_Name = title,
+                Title = title,
+                Type = "article",
+                Url = Request.Url.ToString()
+            };
 
         }
 

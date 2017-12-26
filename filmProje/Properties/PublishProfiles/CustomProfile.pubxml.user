@@ -14,7 +14,7 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>12/17/2017 14:38:36</publishTime>
     </File>
     <File Include="ara.aspx">
-      <publishTime>12/20/2017 21:19:27</publishTime>
+      <publishTime>12/24/2017 20:00:13</publishTime>
     </File>
     <File Include="bin/amd64/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest">
       <publishTime>09/11/2017 22:35:29</publishTime>
@@ -89,13 +89,19 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>09/11/2017 22:35:27</publishTime>
     </File>
     <File Include="bin/filmProje.dll">
-      <publishTime>12/20/2017 21:39:12</publishTime>
+      <publishTime>12/26/2017 23:07:56</publishTime>
     </File>
     <File Include="bin/filmProje.pdb">
-      <publishTime>12/20/2017 21:39:12</publishTime>
+      <publishTime>12/26/2017 23:07:56</publishTime>
     </File>
     <File Include="bin/ImageProcessor.dll">
       <publishTime>09/11/2017 22:09:30</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.dll">
+      <publishTime>11/28/2017 02:13:10</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.DiskCache.dll">
+      <publishTime>11/28/2017 02:13:26</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
       <publishTime>10/15/2017 17:51:02</publishTime>
@@ -131,7 +137,7 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>09/11/2017 22:14:53</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
-      <publishTime>11/11/2017 15:14:21</publishTime>
+      <publishTime>01/28/2015 04:02:42</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Primitives.dll">
       <publishTime>09/11/2017 22:14:53</publishTime>
@@ -144,6 +150,15 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
     </File>
     <File Include="bin/System.Web.Optimization.dll">
       <publishTime>10/15/2017 17:50:59</publishTime>
+    </File>
+    <File Include="bin/tr/System.Net.Http.Formatting.resources.dll">
+      <publishTime>01/28/2015 04:02:52</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Http.resources.dll">
+      <publishTime>01/28/2015 04:03:04</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Http.WebHost.resources.dll">
+      <publishTime>01/28/2015 04:03:56</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>10/15/2017 17:50:58</publishTime>
@@ -1400,13 +1415,16 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>10/15/2017 17:50:41</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>12/19/2017 18:17:16</publishTime>
+      <publishTime>12/26/2017 23:07:17</publishTime>
     </File>
     <File Include="favico.png">
       <publishTime>12/19/2017 13:08:14</publishTime>
     </File>
+    <File Include="film-ekle/adminModuller/afis-optimize.ascx">
+      <publishTime>12/24/2017 18:34:51</publishTime>
+    </File>
     <File Include="film-ekle/adminModuller/film-ekle.ascx">
-      <publishTime>12/16/2017 20:59:13</publishTime>
+      <publishTime>12/23/2017 13:36:58</publishTime>
     </File>
     <File Include="film-ekle/adminModuller/kategoriler.ascx">
       <publishTime>10/16/2017 21:34:50</publishTime>
@@ -1436,7 +1454,7 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>10/16/2017 15:09:05</publishTime>
     </File>
     <File Include="film-ekle/CSS/style.css">
-      <publishTime>11/18/2017 18:40:43</publishTime>
+      <publishTime>12/23/2017 13:38:04</publishTime>
     </File>
     <File Include="film-ekle/CSS/tipsy.css">
       <publishTime>10/16/2017 15:09:05</publishTime>
@@ -2159,124 +2177,181 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>10/16/2017 15:09:05</publishTime>
     </File>
     <File Include="film-ekle/yonetim.aspx">
-      <publishTime>12/19/2017 15:42:08</publishTime>
+      <publishTime>12/24/2017 17:15:31</publishTime>
     </File>
     <File Include="film-ekle/yonetim.Master">
-      <publishTime>12/19/2017 15:26:51</publishTime>
+      <publishTime>12/24/2017 17:20:12</publishTime>
     </File>
     <File Include="film.aspx">
-      <publishTime>12/20/2017 21:22:29</publishTime>
+      <publishTime>12/25/2017 21:26:51</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>10/15/2017 17:50:58</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>10/15/2017 17:50:58</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>10/15/2017 17:50:58</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>10/15/2017 17:50:58</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Bold.woff">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Bold.woff2">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Light.woff">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Light.woff2">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Medium.woff">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Medium.woff2">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Regular.woff">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Regular.woff2">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Thin.woff">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/roboto/Roboto-Thin.woff2">
-      <publishTime>11/20/2017 15:02:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>10/15/2017 17:50:41</publishTime>
     </File>
     <File Include="HataLogDosyasi.txt">
-      <publishTime>12/20/2017 21:43:24</publishTime>
+      <publishTime>12/26/2017 22:30:57</publishTime>
     </File>
     <File Include="images/deneme.jpg">
-      <publishTime>11/20/2017 16:56:13</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/logo.png">
       <publishTime>12/17/2017 13:59:43</publishTime>
     </File>
+    <File Include="images/screen.png">
+      <publishTime>12/26/2017 21:12:18</publishTime>
+    </File>
     <File Include="images/sil.png">
       <publishTime>11/11/2017 16:20:17</publishTime>
     </File>
+    <File Include="images/upload/adalet-birligi-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
     <File Include="images/upload/ailecek-saskiniz-izle.jpg">
-      <publishTime>12/19/2017 12:42:24</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/anne-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/arabalar-3-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/barry-seal-kacakci-izle.jpg">
-      <publishTime>12/19/2017 12:42:24</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/bright-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/cizgi-otesi-izle.jpg">
-      <publishTime>12/19/2017 12:42:25</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/coverfield-movie-izle.jpg">
-      <publishTime>12/19/2017 12:42:25</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/dunkirk-izle.jpg">
-      <publishTime>12/19/2017 12:42:25</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/gokyuzunun-otesinde-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/hizmetci-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/intikam-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/john-wick-2-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/kara-gun-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/kara-panter-izle.jpg">
+      <publishTime>12/24/2017 16:50:02</publishTime>
     </File>
     <File Include="images/upload/kickboxer-misilleme-izle.jpg">
-      <publishTime>12/19/2017 12:42:25</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/kingsman-2-altin-cember-izle.jpg">
-      <publishTime>12/19/2017 12:42:25</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/korku-kayitlari-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/kutsal-geyigin-olumu-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/o-izle.jpg">
-      <publishTime>12/19/2017 12:42:25</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/olum-gunun-kutlu-olsun-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/oyun-gecesi-full-izle.jpg">
-      <publishTime>12/19/2017 12:42:26</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/pes-etme-izle.jpg">
-      <publishTime>12/19/2017 12:42:25</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/sansli-logan-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/sarisin-bomba-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/star-wars-8-son-jedi-izle.jpg">
-      <publishTime>12/19/2017 12:42:26</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/testere-8-jigsaw-efsanesi-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/thor-ragnarok-izle.jpg">
-      <publishTime>12/19/2017 12:42:26</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/upload/uzaydan-gelen-firtina-izle.jpg">
+      <publishTime>12/24/2017 16:52:54</publishTime>
     </File>
     <File Include="images/upload/vincentten-sevgilerle-izle.jpg">
-      <publishTime>12/19/2017 12:42:26</publishTime>
+      <publishTime>12/24/2017 16:52:54</publishTime>
+    </File>
+    <File Include="images/yakinda.png">
+      <publishTime>12/23/2017 15:04:59</publishTime>
     </File>
     <File Include="imdb.aspx">
-      <publishTime>12/16/2017 13:41:24</publishTime>
+      <publishTime>12/26/2017 22:42:15</publishTime>
     </File>
     <File Include="kategori.aspx">
-      <publishTime>12/16/2017 14:39:30</publishTime>
+      <publishTime>12/26/2017 22:42:13</publishTime>
     </File>
     <File Include="oyuncu.aspx">
-      <publishTime>12/16/2017 15:27:14</publishTime>
+      <publishTime>12/26/2017 22:42:40</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>12/19/2017 19:10:23</publishTime>
+      <publishTime>12/24/2017 21:20:48</publishTime>
     </File>
     <File Include="robots.txt">
-      <publishTime>12/19/2017 13:34:34</publishTime>
+      <publishTime>12/24/2017 15:14:28</publishTime>
     </File>
     <File Include="Scripts/animation.js">
       <publishTime>11/20/2017 15:18:47</publishTime>
@@ -3361,6 +3436,12 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
     <File Include="Scripts/jquery-3.2.1.min.js">
       <publishTime>11/20/2017 15:01:52</publishTime>
     </File>
+    <File Include="Scripts/jquery-3.2.1.min.min.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.cookie.js">
+      <publishTime>12/24/2017 14:38:55</publishTime>
+    </File>
     <File Include="Scripts/jquery.easing.1.4.js">
       <publishTime>11/20/2017 15:18:47</publishTime>
     </File>
@@ -3425,13 +3506,13 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>12/16/2017 22:29:47</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>12/20/2017 21:45:21</publishTime>
+      <publishTime>12/26/2017 21:23:22</publishTime>
     </File>
     <File Include="tasarim/css/404.css">
       <publishTime>12/17/2017 14:38:03</publishTime>
     </File>
     <File Include="tasarim/css/materialize.css">
-      <publishTime>12/20/2017 21:11:23</publishTime>
+      <publishTime>12/25/2017 21:38:23</publishTime>
     </File>
     <File Include="tasarim/fonts/glyphicons-halflings-regular.eot">
       <publishTime>10/15/2017 17:50:58</publishTime>
@@ -3548,7 +3629,7 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>11/20/2017 15:19:06</publishTime>
     </File>
     <File Include="tasarim/sass/components/_navbar.scss">
-      <publishTime>12/19/2017 12:54:33</publishTime>
+      <publishTime>12/24/2017 20:08:38</publishTime>
     </File>
     <File Include="tasarim/sass/components/_normalize.scss">
       <publishTime>11/20/2017 15:19:06</publishTime>
@@ -3596,7 +3677,7 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>12/20/2017 20:59:03</publishTime>
     </File>
     <File Include="tasarim/sass/materialize.scss">
-      <publishTime>12/20/2017 21:11:22</publishTime>
+      <publishTime>12/25/2017 21:38:21</publishTime>
     </File>
     <File Include="tasarim/yildiz/yildiz_hover.png">
       <publishTime>11/25/2017 14:29:36</publishTime>
@@ -3605,19 +3686,19 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>11/25/2017 14:29:36</publishTime>
     </File>
     <File Include="ulke.aspx">
-      <publishTime>12/16/2017 13:58:07</publishTime>
+      <publishTime>12/26/2017 22:45:37</publishTime>
     </File>
     <File Include="ViewSwitcher.ascx">
       <publishTime>10/15/2017 17:51:02</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/20/2017 21:48:20</publishTime>
+      <publishTime>12/26/2017 23:08:49</publishTime>
     </File>
     <File Include="yapim-yili.aspx">
-      <publishTime>12/16/2017 13:43:15</publishTime>
+      <publishTime>12/26/2017 22:46:09</publishTime>
     </File>
     <File Include="yonetmen.aspx">
-      <publishTime>12/16/2017 15:18:44</publishTime>
+      <publishTime>12/26/2017 22:46:54</publishTime>
     </File>
   </ItemGroup>
 </Project>

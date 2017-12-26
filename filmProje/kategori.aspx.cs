@@ -21,6 +21,12 @@ namespace filmProje
 
         IList<string> segmentler = HttpContext.Current.Request.GetFriendlyUrlSegments();
 
+        MetaTagInfo MetaTags
+        {
+            get { return ViewState["METATAG"] as MetaTagInfo; }
+            set { ViewState["METATAG"] = value; }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (dbBag.State == ConnectionState.Closed)
@@ -33,10 +39,15 @@ namespace filmProje
                 filmlerGetir();
                 BaslikGetir();
             }
+
+            MetaTagGenerator metaTagGenerator = new MetaTagGenerator();
+            metaTagGenerator.Generate(MetaTags);
         }
 
         protected void BaslikGetir()
         {
+            string title = "";
+
             cmdKomut = new SqlCommand("Select * From film_Kategoriler Where URL = '" + segmentler[0] + "'", dbBag);
             dtrData = cmdKomut.ExecuteReader();
             if (dtrData.Read())
@@ -44,15 +55,27 @@ namespace filmProje
                 if (Request["Page"] != null)
                 {
                     Page.Title = dtrData["KategoriAdi"].ToString() + " Filmleri izle Full HD Tek Parça 1080p Seyret - Sayfa " + Request["Page"];
+                    title= dtrData["KategoriAdi"].ToString() + " Filmleri izle Full HD Tek Parça 1080p Seyret - Sayfa " + Request["Page"];
                     Page.MetaDescription = Request["Page"] + ". Sayfa - " + dtrData["KategoriAdi"].ToString() + " filmleri izle tek parça full hd filmleri web sitemizi ziyaret ederek donmadan izleyebilirsiniz.";
                 }
                 else
                 {
                     Page.Title = dtrData["KategoriAdi"].ToString() + " Filmleri izle Full HD Tek Parça 1080p Seyret";
+                    title= dtrData["KategoriAdi"].ToString() + " Filmleri izle Full HD Tek Parça 1080p Seyret";
                     Page.MetaDescription = dtrData["KategoriAdi"].ToString() + " filmleri izle tek parça full hd filmleri web sitemizi ziyaret ederek donmadan izleyebilirsiniz.";
                 }
             }
             dtrData.Close();
+
+            MetaTags = new MetaTagInfo
+            {
+                Description = Page.MetaDescription,
+                Image = "http://" + Request.Url.Host.ToLower() + "/images/screen.png",
+                Site_Name = title,
+                Title = title,
+                Type = "article",
+                Url = Request.Url.ToString()
+            };
         }
 
         protected void filmlerGetir()

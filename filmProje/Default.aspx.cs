@@ -19,6 +19,12 @@ namespace filmProje
         SqlDataAdapter dtrAdapt;
         DataTable dtTable = new DataTable();
 
+        MetaTagInfo MetaTags
+        {
+            get { return ViewState["METATAG"] as MetaTagInfo; }
+            set { ViewState["METATAG"] = value; }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (dbBag.State == ConnectionState.Closed)
@@ -30,7 +36,20 @@ namespace filmProje
             {
                 filmlerGetir();
                 sayfaBasligi();
+
+                MetaTags = new MetaTagInfo
+                {   
+                    Description = Page.MetaDescription,
+                    Image = "http://" + Request.Url.Host.ToLower() + "/images/screen.png",
+                    Site_Name = Page.Title,
+                    Title = Page.Title,
+                    Type = "article",
+                    Url = "http://" + Request.Url.Host.ToLower()
+                };
             }
+
+            MetaTagGenerator metaTagGenerator = new MetaTagGenerator();
+            metaTagGenerator.Generate(MetaTags);
         }
 
         protected void sayfaBasligi() {

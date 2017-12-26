@@ -20,6 +20,7 @@ namespace filmProje
 
         protected void Page_Load(object sender, EventArgs e)
         {
+
             if (dbBag.State == ConnectionState.Closed)
             {
                 dbBag = baglan.dbBaglanti();

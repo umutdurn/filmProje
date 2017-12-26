@@ -41,6 +41,8 @@ namespace filmProje
                     Path = "~/Scripts/respond.min.js",
                     DebugPath = "~/Scripts/respond.js",
                 });
+
+            BundleTable.EnableOptimizations = true;
         }
     }
 }

@@ -3,3 +3,5 @@ Disallow:
 Disallow: /bin/
 Disallow: /ckfinder/
 Disallow: /fonts/
+
+Sitemap: http://www.serifilmizler.com/sitemap.xml

@@ -21,6 +21,12 @@ namespace filmProje
 
         IList<string> segmentler = HttpContext.Current.Request.GetFriendlyUrlSegments();
 
+        MetaTagInfo MetaTags
+        {
+            get { return ViewState["METATAG"] as MetaTagInfo; }
+            set { ViewState["METATAG"] = value; }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (dbBag.State == ConnectionState.Closed)
@@ -33,21 +39,38 @@ namespace filmProje
                 filmlerGetir();
                 BaslikGetir();
             }
+
+            MetaTagGenerator metaTagGenerator = new MetaTagGenerator();
+            metaTagGenerator.Generate(MetaTags);
         }
 
         protected void BaslikGetir()
         {
+            string title = "";
+
             if (Request["Page"] != null)
             {
                 Page.Title = segmentler[0] + " Filmleri Full HD Tek Parça izle - Sayfa " + Request["Page"];
+                title= segmentler[0] + " Filmleri Full HD Tek Parça izle - Sayfa " + Request["Page"];
                 Page.MetaDescription = Request["Page"] + ". Sayfa - " + segmentler[0] + " yılının en güzel ve en beğenilen filmlerini web sitemizi ziyaret ederek full hd kalitede izleyebilirsiniz.";
 
             }
             else
             {
                 Page.Title = segmentler[0] + " Filmleri Full HD Tek Parça izle";
+                title= segmentler[0] + " Filmleri Full HD Tek Parça izle";
                 Page.MetaDescription = segmentler[0] + " yılının en güzel ve en beğenilen filmlerini web sitemizi ziyaret ederek full hd kalitede izleyebilirsiniz.";
             }
+
+            MetaTags = new MetaTagInfo
+            {
+                Description = Page.MetaDescription,
+                Image = "http://" + Request.Url.Host.ToLower() + "/images/screen.png",
+                Site_Name = title,
+                Title = title,
+                Type = "article",
+                Url = Request.Url.ToString()
+            };
 
 
         }

@@ -1661,7 +1661,6 @@
 
 	input[type="checkbox"], input[type="radio"] {
 		width: 16px;
-		height: 16px;
 		cursor: pointer;
 	}
 
@@ -2392,4 +2391,10 @@
     font-size:12px;
     color:#575757;
     margin:10px 0;
+}
+.right {
+    float:right;
+}
+.clearfix {
+    clear:both;
 }

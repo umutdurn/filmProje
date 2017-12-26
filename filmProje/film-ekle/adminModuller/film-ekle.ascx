@@ -36,6 +36,10 @@
 <div class="g_12">
     <div class="widget_header">
 	    <h4 class="widget_header_title wwIcon i_16_forms">Film Bilgileri</h4>
+        <span class="label right">
+            <asp:CheckBox ID="chckGelecekFilm" runat="server" title="Gelecek Film"/>
+        </span>
+        <div class="clearfix"></div>
     </div>
     <div class="widget_contents noPadding">
 	    <div class="line_grid">

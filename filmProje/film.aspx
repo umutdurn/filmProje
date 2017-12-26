@@ -1,11 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="film.aspx.cs" Inherits="filmProje.film" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div id="siyahBack" class="bckKapali"></div>
     <asp:UpdatePanel ID="updIcerik" runat="server">
         <ContentTemplate>
             <div itemscope itemtype="http://schema.org/Movie">
                 <h1 class="filmanabaslik"><asp:Literal ID="ltrFilmAdi" runat="server"></asp:Literal></h1>
                 <div class="orjinalAdi">Orjinal Adı: <strong><span itemprop="name"><asp:Literal ID="ltrOrjinalAdi" runat="server"></asp:Literal></span></strong></div>
-                <asp:DropDownList ID="dropPartlar" runat="server" AutoPostBack="true" OnSelectedIndexChanged="dropPartlar_SelectedIndexChanged"></asp:DropDownList>
+                <div id="partSec">
+                    <asp:Repeater ID="rptPartlar" runat="server" OnItemCommand="rptPartlar_ItemCommand">
+                        <ItemTemplate>
+                            <asp:Button ID="btnPart" runat="server" Text='<%#Eval("PartAdi") %>' CssClass="waves-effect waves-light btn partbtnpadding" CommandName="partgetir" CommandArgument='<%#Eval("ID") %>' />
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </div>
                 <asp:Repeater ID="rptfilm" runat="server" OnItemCommand="rptfilm_ItemCommand">
                     <ItemTemplate>
                             <meta itemprop="image" content="http://<%=Request.Url.Host.ToLower() %>/images/upload/<%#Eval("Poster") %>">
@@ -17,8 +24,11 @@
                             <div class="filmbilgileri">
                                 <h4 class="filmkonubaslik"><%#Eval("OrjinalAdi") %> Bilgileri</h4>
                                 <div class="row">
-                                    <div class="col l3 hide-on-med-and-down">
-                                        <img src="<%=Page.ResolveUrl("~") %>images/upload/<%#Eval("Poster") %>" title="<%#Eval("OrjinalAdi") %>" alt="<%#Eval("OrjinalAdi") %>" />
+                                    <div class="col l3 hide-on-med-and-down filmrelative">
+                                        <asp:Panel ID="pnlYakinda" runat="server" Visible='<%#Convert.ToInt32(Eval("Gelecek")) == 1 %>' CssClass="filmustResimFilmIci">
+                                            <img src="<%=Page.ResolveUrl("~") %>images/yakinda.png" alt="Gelecek Film - <%#Eval("OrjinalAdi") %>" title="Gelecek Film - <%#Eval("OrjinalAdi") %>"/>
+                                        </asp:Panel>
+                                        <img src="<%=Page.ResolveUrl("~") %>images/upload/<%#Eval("Poster") %>?width=156&height=224&mode=max&quality=60" title="<%#Eval("OrjinalAdi") %> izle" alt="<%#Eval("OrjinalAdi") %>" />
                                     </div>
                                     <div class="col s12 m12 l9 fbilgiler">
                                         <div class="oykullan">
@@ -89,14 +99,17 @@
                             </div>
                             <div class="filmicerik">
                                 <h4 class="filmkonubaslik"><%#Eval("OrjinalAdi") %> Konusu</h4>
-                                <div itemprop="description">
+                                <div itemprop="description" class="kismiAciklama" id="filmAciklamasi">
                                     <%#Eval("Icerik") %>
+                                </div>
+                                <div class="aciklamaDevami">
+                                    <span class="devaminiGor">Tüm Yazıyı Gör >></span>
                                 </div>
                             </div>
                     </ItemTemplate>
                 </asp:Repeater>
                 <div class="filmyorumyap">
-                    <h4 class="filmkonubaslik"><span itemprop="name"><asp:Literal ID="ltrFilmAdiYorum" runat="server"></asp:Literal> Filmi Yorumları</h4>
+                    <h4 class="filmkonubaslik"><asp:Literal ID="ltrFilmAdiYorum" runat="server"></asp:Literal> Filmi Yorumları</h4>
                     <div class="col s12 m12 l6">
                         <asp:TextBox ID="txtYorumAdi" MaxLength="30" CssClass="input-field" placeholder="Adınız" runat="server"></asp:TextBox>
                     </div>
@@ -151,6 +164,15 @@
                     }
                 })
             })
+            $(document).ready(function () {
+
+                $(".aciklamaDevami").click(function () {
+                    if ($("#filmAciklamasi").hasClass("kismiAciklama")) {
+                        $("#filmAciklamasi").removeClass("kismiAciklama").addClass("tamAciklama");
+                        $(".aciklamaDevami").addClass("heightSifir");
+                    }
+                });
+            });
         }
 	</script>
 </asp:Content>

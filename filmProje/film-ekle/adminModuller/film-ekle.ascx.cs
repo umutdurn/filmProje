@@ -70,6 +70,12 @@ namespace filmProje.film_ekle.adminModuller
                 Ulke = dtrData["Ulke"].ToString();
                 Sure = dtrData["Sure"].ToString();
                 OrjinalAdi = dtrData["OrjinalAdi"].ToString();
+
+                if (dtrData["Gelecek"].ToString() == "1")
+                {
+                    chckGelecekFilm.Checked = true;
+                }
+
             }
             dtrData.Close();
 
@@ -158,10 +164,17 @@ namespace filmProje.film_ekle.adminModuller
             string yonetmenler = yonetmenGetir();
             string oyuncular = oyuncuGetir();
 
+            int gelecek = 0;
+
+            if (chckGelecekFilm.Checked)
+            {
+                gelecek = 1;
+            }
+
             if (Request["duzenle"] == null)
             {
-                komut = "Insert Into film_Filmler(Baslik,Icerik,Poster,Oyuncular,MetaDesc,URL,Kategoriler,YapimYili,IMDB,Yonetmenler,Ulke,Sure,OrjinalAdi,OlusturmaTarihi) Values" +
-                        "(@Baslik,@Icerik,@Poster,@Oyuncular,@MetaDesc,@URL,@Kategoriler,@YapimYili,@IMDB,@Yonetmenler,@Ulke,@Sure,@OrjinalAdi,@OlusturmaTarihi) select scope_identity();";
+                komut = "Insert Into film_Filmler(Baslik,Icerik,Poster,Oyuncular,MetaDesc,URL,Kategoriler,YapimYili,IMDB,Yonetmenler,Ulke,Sure,OrjinalAdi,OlusturmaTarihi,Gelecek) Values" +
+                        "(@Baslik,@Icerik,@Poster,@Oyuncular,@MetaDesc,@URL,@Kategoriler,@YapimYili,@IMDB,@Yonetmenler,@Ulke,@Sure,@OrjinalAdi,@OlusturmaTarihi,@Gelecek) select scope_identity();";
 
                 if (filePoster.HasFile)
                 {
@@ -175,7 +188,7 @@ namespace filmProje.film_ekle.adminModuller
             }
             else
             {
-                komut = "Update film_Filmler SET Baslik=@Baslik,Icerik=@Icerik,Poster=@Poster,Oyuncular=@Oyuncular,MetaDesc=@MetaDesc,URL=@URL,Kategoriler=@Kategoriler,YapimYili=@YapimYili,IMDB=@IMDB,Yonetmenler=@Yonetmenler,Ulke=@Ulke,Sure=@Sure,OrjinalAdi=@OrjinalAdi Where ID = '" + Request["duzenle"] + "'";
+                komut = "Update film_Filmler SET Baslik=@Baslik,Icerik=@Icerik,Poster=@Poster,Oyuncular=@Oyuncular,MetaDesc=@MetaDesc,URL=@URL,Kategoriler=@Kategoriler,YapimYili=@YapimYili,IMDB=@IMDB,Yonetmenler=@Yonetmenler,Ulke=@Ulke,Sure=@Sure,OrjinalAdi=@OrjinalAdi,Gelecek=@Gelecek Where ID = '" + Request["duzenle"] + "'";
 
                 if (filePoster.HasFile)
                 {
@@ -239,6 +252,9 @@ namespace filmProje.film_ekle.adminModuller
 
             cmdKomut.Parameters.Add("@OrjinalAdi", SqlDbType.NVarChar);
             cmdKomut.Parameters["@OrjinalAdi"].Value = txtOrjinalAdi.Text;
+
+            cmdKomut.Parameters.Add("@Gelecek", SqlDbType.Int);
+            cmdKomut.Parameters["@Gelecek"].Value = gelecek;
 
             string id = "";
 
@@ -458,11 +474,17 @@ namespace filmProje.film_ekle.adminModuller
 
         protected void btnYonetmenKayit_Click(object sender, EventArgs e)
         {
-            string url = urlOlustur(txtYonetmenler.Text);
-
             dtYonetmenler = (DataTable)ViewState["Yonetmenler"];
 
-            dtYonetmenler.Rows.Add(url, txtYonetmenler.Text, url);
+            string yonetmenler = txtYonetmenler.Text.Replace("  ", " ").Replace(", ", ",").Replace(" , ", ",").Replace(" ,", ",");
+
+            string[] gelenYonetmen = yonetmenler.Split(',');
+
+            for (int i = 0; i < gelenYonetmen.Length; i++)
+            {
+                string url = urlOlustur(gelenYonetmen[i]);
+                dtYonetmenler.Rows.Add(url, gelenYonetmen[i], url);
+            }
 
             ViewState["Yonetmenler"] = dtYonetmenler;
 
@@ -474,11 +496,17 @@ namespace filmProje.film_ekle.adminModuller
 
         protected void btnOyuncuKayit_Click(object sender, EventArgs e)
         {
-            string url = urlOlustur(txtOyuncular.Text);
-
             dtOyuncular = (DataTable)ViewState["Oyuncular"];
 
-            dtOyuncular.Rows.Add(url, txtOyuncular.Text, url);
+            string oyuncular = txtOyuncular.Text.Replace("  ", " ").Replace(", ", ",").Replace(" , ", ",").Replace(" ,", ",");
+
+            string[] gelenOyuncu = oyuncular.Split(',');
+
+            for (int i = 0; i < gelenOyuncu.Length; i++)
+            {
+                string url = urlOlustur(gelenOyuncu[i]);
+                dtOyuncular.Rows.Add(url, gelenOyuncu[i], url);
+            }
 
             ViewState["Oyuncular"] = dtOyuncular;
 

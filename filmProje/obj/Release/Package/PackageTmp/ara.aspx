@@ -9,7 +9,7 @@
         <ItemTemplate>
             <div class="col s6 m4 l4">
                 <div class="filmafis">
-                    <a href="film/<%#Eval("URL") %>"><img src="images/upload/<%#Eval("Poster") %>" class="hoverable width100" alt="<%#Eval("Baslik") %>" title="<%#Eval("Baslik") %>" title="<%#Eval("Baslik") %>"></a>
+                    <a href="film/<%#Eval("URL") %>"><img src="images/upload/<%#Eval("Poster") %>?width=216&height=320&mode=max&quality=60" class="hoverable width100" alt="<%#Eval("Baslik") %>" title="<%#Eval("Baslik") %>" title="<%#Eval("Baslik") %>"></a>
                     <div class="filmaltbilgi">
                         <div class="filmimdb">
                             IMDB Puanı: <%#Eval("IMDB") %> /10

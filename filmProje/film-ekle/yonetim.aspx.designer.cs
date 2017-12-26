@@ -101,5 +101,23 @@ namespace filmProje.film_ekle {
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
         protected global::filmProje.film_ekle.adminModuller.yorumlar yorumlar;
+        
+        /// <summary>
+        /// pnlafisler denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlafisler;
+        
+        /// <summary>
+        /// afisoptimize denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::filmProje.film_ekle.adminModuller.afis_optimize afisoptimize;
     }
 }

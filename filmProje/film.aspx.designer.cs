@@ -40,13 +40,13 @@ namespace filmProje {
         protected global::System.Web.UI.WebControls.Literal ltrOrjinalAdi;
         
         /// <summary>
-        /// dropPartlar denetimi.
+        /// rptPartlar denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dropPartlar;
+        protected global::System.Web.UI.WebControls.Repeater rptPartlar;
         
         /// <summary>
         /// rptfilm denetimi.

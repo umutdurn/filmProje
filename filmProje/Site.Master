@@ -9,11 +9,14 @@
     <asp:ContentPlaceHolder ID="headContent" runat="server">
 
     </asp:ContentPlaceHolder>
+    <!-- SEO -->  
+    <meta name="author" content="seri filmizle">  
+    <link rel="author" href="https://plus.google.com/117978790678177031694/posts"/>
     <asp:Literal ID="ltrCanonical" runat="server"></asp:Literal>
     <title></title>
-    <script src="<%=ResolveUrl("~") %>Scripts/jquery-3.2.1.min.js"></script>
+    <script async src="../Scripts/jquery-3.2.1.min.js"></script>
+    <link async href="tasarim/css/materialize.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="<%=ResolveUrl("~") %>tasarim/css/materialize.css" rel="stylesheet" />
     <link href="~/favico.png" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
@@ -54,7 +57,7 @@
               <div class="nav-wrapper genelGenislik ortala">
                 <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
                 <a href="<%=Page.ResolveUrl("~/") %>" class="brand-logo">
-                    <img src="<%=Page.ResolveUrl("~/") %>images/logo.png" alt="film izle" />
+                    <img src="<%=Page.ResolveUrl("~/") %>images/logo.png" alt="film izle" width="200" height="53" />
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tarihe Göre<i class="material-icons right">arrow_drop_down</i></a></li>

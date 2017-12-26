@@ -87,6 +87,12 @@
       <HintPath>..\packages\ImageProcessor.2.3.3.0\lib\net45\ImageProcessor.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="ImageResizer, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ImageResizer.4.2.0\lib\net45\ImageResizer.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageResizer.Plugins.DiskCache, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ImageResizer.Plugins.DiskCache.4.2.0\lib\net45\ImageResizer.Plugins.DiskCache.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
@@ -119,22 +125,19 @@
       <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Primitives.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.2\lib\net45\System.Web.Http.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.2\lib\net45\System.Web.Http.WebHost.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -545,6 +548,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="favico.png" />
+    <Content Include="film-ekle\adminModuller\afis-optimize.ascx" />
     <Content Include="film-ekle\adminModuller\film-ekle.ascx" />
     <Content Include="film-ekle\adminModuller\kategoriler.ascx" />
     <Content Include="film-ekle\adminModuller\siteharitasi.ascx" />
@@ -790,9 +794,28 @@
     <Content Include="film-ekle\Javascript\Uniform\jquery.uniform.js" />
     <Content Include="film-ekle\yonetim.aspx" />
     <Content Include="film.aspx" />
+    <Content Include="images\screen.png" />
+    <Content Include="images\upload\adalet-birligi-izle.jpg" />
+    <Content Include="images\upload\anne-izle.jpg" />
+    <Content Include="images\upload\arabalar-3-izle.jpg" />
+    <Content Include="images\upload\bright-izle.jpg" />
+    <Content Include="images\upload\gokyuzunun-otesinde-izle.jpg" />
+    <Content Include="images\upload\hizmetci-izle.jpg" />
+    <Content Include="images\upload\intikam-izle.jpg" />
+    <Content Include="images\upload\john-wick-2-izle.jpg" />
+    <Content Include="images\upload\kara-gun-izle.jpg" />
+    <Content Include="images\upload\kara-panter-izle.jpg" />
+    <Content Include="images\upload\korku-kayitlari-izle.jpg" />
+    <Content Include="images\upload\kutsal-geyigin-olumu-izle.jpg" />
+    <Content Include="images\upload\olum-gunun-kutlu-olsun-izle.jpg" />
+    <Content Include="images\upload\sansli-logan-izle.jpg" />
+    <Content Include="images\upload\sarisin-bomba-izle.jpg" />
+    <Content Include="images\upload\testere-8-jigsaw-efsanesi-izle.jpg" />
+    <Content Include="images\upload\uzaydan-gelen-firtina-izle.jpg" />
+    <Content Include="images\yakinda.png" />
+    <Content Include="Scripts\jquery.cookie.js" />
     <Content Include="tasarim\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="HataLogDosyasi.txt" />
-    <Content Include="images\deneme.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\sil.png" />
     <Content Include="images\upload\ailecek-saskiniz-izle.jpg" />
@@ -1314,6 +1337,7 @@
     <Content Include="ulke.aspx" />
     <Content Include="yapim-yili.aspx" />
     <Content Include="yonetmen.aspx" />
+    <None Include="bundleconfig.json" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
@@ -1368,13 +1392,19 @@
     <Compile Include="ara.aspx.designer.cs">
       <DependentUpon>ara.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Compression.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="film-ekle\adminModuller\afis-optimize.ascx.cs">
+      <DependentUpon>afis-optimize.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="film-ekle\adminModuller\afis-optimize.ascx.designer.cs">
+      <DependentUpon>afis-optimize.ascx</DependentUpon>
     </Compile>
     <Compile Include="film-ekle\adminModuller\film-ekle.ascx.cs">
       <DependentUpon>film-ekle.ascx</DependentUpon>
@@ -1450,6 +1480,8 @@
       <DependentUpon>kategori.aspx</DependentUpon>
     </Compile>
     <Compile Include="md5.cs" />
+    <Compile Include="MetaTagGenerator.cs" />
+    <Compile Include="MetaTagInfo.cs" />
     <Compile Include="oyuncu.aspx.cs">
       <DependentUpon>oyuncu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1465,6 +1497,7 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="StaticMethods.cs" />
     <Compile Include="ulke.aspx.cs">
       <DependentUpon>ulke.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

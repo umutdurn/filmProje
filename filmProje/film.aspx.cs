@@ -8,6 +8,7 @@ using Microsoft.AspNet.FriendlyUrls;
 using System.Data.SqlClient;
 using System.Data;
 using System.Text.RegularExpressions;
+using System.IO;
 
 namespace filmProje
 {
@@ -21,6 +22,12 @@ namespace filmProje
         DataTable dtTable = new DataTable();
 
         IList<string> segmentler = HttpContext.Current.Request.GetFriendlyUrlSegments();
+
+        MetaTagInfo MetaTags
+        {
+            get { return ViewState["METATAG"] as MetaTagInfo; }
+            set { ViewState["METATAG"] = value; }
+        }
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -40,7 +47,8 @@ namespace filmProje
                 YorumlarGetir();
             }
 
-            //Response.Cookies["syfYildiz_" + ViewState["filmID"].ToString()].Expires = DateTime.Now.AddDays(-1);
+            MetaTagGenerator metaTagGenerator = new MetaTagGenerator();
+            metaTagGenerator.Generate(MetaTags);
         }
 
         protected void YorumlarGetir() {
@@ -132,11 +140,22 @@ namespace filmProje
             dtrAdapt.Fill(dtTable);
 
             ViewState["filmID"] = dtTable.Rows[0]["ID"].ToString();
+            ViewState["filmAfis"] = dtTable.Rows[0]["Poster"].ToString();
             ltrFilmAdi.Text = dtTable.Rows[0]["Baslik"].ToString();
             ltrOrjinalAdi.Text = dtTable.Rows[0]["OrjinalAdi"].ToString();
             ltrFilmAdiYorum.Text = dtTable.Rows[0]["OrjinalAdi"].ToString();
             Page.Title = dtTable.Rows[0]["Baslik"].ToString();
             Page.MetaDescription = dtTable.Rows[0]["MetaDesc"].ToString();
+
+            MetaTags = new MetaTagInfo
+            {
+                Description = Page.MetaDescription,
+                Image = "http://" + Request.Url.Host.ToLower() + "/images/upload/" + ViewState["filmAfis"].ToString(),
+                Site_Name = dtTable.Rows[0]["Baslik"].ToString(),
+                Title = dtTable.Rows[0]["Baslik"].ToString(),
+                Type = "article",
+                Url = Request.Url.ToString()
+            };
 
             rptfilm.DataSource = dtTable;
             rptfilm.DataBind();
@@ -145,44 +164,21 @@ namespace filmProje
 
         protected void partGetir() {
 
-            foreach (RepeaterItem item in rptfilm.Items)
-            {
-                Literal literal = (Literal)item.FindControl("ltrIframe");
-                int partsayi = 1;
-                cmdKomut = new SqlCommand("Select * From film_Partlar Where FilmID = '" + ViewState["filmID"].ToString() + "'",dbBag);
-                dtrData = cmdKomut.ExecuteReader();
-                while (dtrData.Read())
-                {
-                    ListItem part = new ListItem();
-                    part.Text = "Seçenek " + partsayi.ToString() + ": "+ dtrData["PartAdi"].ToString() + ", " + dtrData["Kalitesi"].ToString() + ", " + dtrData["Dil"].ToString();
-                    part.Value = dtrData["ID"].ToString();
+            dtTable.Clear();
 
-                    if (partsayi == 1)
-                    {
-                        literal.Text = dtrData["Iframe"].ToString();
-                    }
-
-                    dropPartlar.Items.Add(part);
-
-                    partsayi++;
-                }
-                dtrData.Close();
-            }
-        
-        }
-
-        protected void dropPartlar_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            DropDownList drop = (DropDownList)sender;
             Literal literal = (Literal)rptfilm.Items[0].FindControl("ltrIframe");
 
-            cmdKomut = new SqlCommand("Select * From film_Partlar Where ID = '" + drop.SelectedValue + "'", dbBag);
-            dtrData = cmdKomut.ExecuteReader();
-            if (dtrData.Read())
-            {
-                literal.Text = dtrData["Iframe"].ToString();
-            }
-            dtrData.Close();
+            dtrAdapt = new SqlDataAdapter("Select * From film_Partlar Where FilmID = '" + ViewState["filmID"].ToString() + "'", dbBag);
+            dtrAdapt.Fill(dtTable);
+
+            literal.Text = dtTable.Rows[0]["Iframe"].ToString();
+
+            rptPartlar.DataSource = dtTable;
+            rptPartlar.DataBind();
+
+            Button btn = (Button)rptPartlar.Items[0].FindControl("btnPart");
+            btn.CssClass += " fragmanpart";
+
         }
 
         public string kategoriGetir(string katid) {
@@ -494,6 +490,52 @@ namespace filmProje
             else
                 return yil + " yıl önce";
 
+        }
+
+        protected void btnAnladim_Click(object sender, EventArgs e)
+        {
+            Response.Redirect(Request.Url.ToString());
+        }
+
+        protected override void SavePageStateToPersistenceMedium(object state)
+        {
+            LosFormatter formatter = new LosFormatter();
+            StringWriter writer = new StringWriter();
+            formatter.Serialize(writer, state);
+            string viewState = writer.ToString();
+            byte[] data = Convert.FromBase64String(viewState);
+            byte[] compressedData = ZipState.Compress(data);
+            string str = Convert.ToBase64String(compressedData);
+            ClientScript.RegisterHiddenField("__CompressedVIEWSTATE", str);
+        }
+
+        protected override object LoadPageStateFromPersistenceMedium()
+        {
+            string viewstate = Request.Form["__CompressedVIEWSTATE"];
+            byte[] data = Convert.FromBase64String(viewstate);
+            byte[] uncompressedData = ZipState.Decompress(data);
+            string str = Convert.ToBase64String(uncompressedData);
+            LosFormatter formatter = new LosFormatter();
+            return formatter.Deserialize(str);
+        }
+
+        protected void rptPartlar_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            if (e.CommandName ==  "partgetir")
+            {
+                Literal literal = (Literal)rptfilm.Items[0].FindControl("ltrIframe");
+                Button btn = (Button)e.Item.FindControl("btnPart");
+                btn.CssClass += " scilenpart";
+
+                cmdKomut = new SqlCommand("Select * From film_Partlar Where ID = '" + e.CommandArgument.ToString() + "'", dbBag);
+                dtrData = cmdKomut.ExecuteReader();
+                if (dtrData.Read())
+                {
+                    literal.Text = dtrData["Iframe"].ToString();
+                }
+                dtrData.Close();
+
+            }
         }
     }
 }

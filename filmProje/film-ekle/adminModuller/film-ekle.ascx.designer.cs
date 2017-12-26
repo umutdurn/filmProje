@@ -13,6 +13,15 @@ namespace filmProje.film_ekle.adminModuller {
     public partial class film_ekle {
         
         /// <summary>
+        /// chckGelecekFilm denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chckGelecekFilm;
+        
+        /// <summary>
         /// txtFilmBasligi denetimi.
         /// </summary>
         /// <remarks>

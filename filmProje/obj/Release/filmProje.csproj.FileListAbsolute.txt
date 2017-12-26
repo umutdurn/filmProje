@@ -73,3 +73,10 @@ E:\Projelerim\filmProje\filmProje\obj\Release\filmProje.csprojResolveAssemblyRef
 E:\Projelerim\filmProje\filmProje\obj\Release\filmProje.csproj.CoreCompileInputs.cache
 E:\Projelerim\filmProje\filmProje\obj\Release\filmProje.dll
 E:\Projelerim\filmProje\filmProje\obj\Release\filmProje.pdb
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.dll
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.xml
+E:\Projelerim\filmProje\filmProje\bin\tr\System.Net.Http.Formatting.resources.dll
+E:\Projelerim\filmProje\filmProje\bin\tr\System.Web.Http.resources.dll
+E:\Projelerim\filmProje\filmProje\bin\tr\System.Web.Http.WebHost.resources.dll
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.Plugins.DiskCache.dll
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.Plugins.DiskCache.xml

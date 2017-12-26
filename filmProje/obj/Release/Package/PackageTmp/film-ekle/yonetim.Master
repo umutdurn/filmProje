@@ -258,12 +258,12 @@
 						<span class="tab_info">Onayla, Düzenle</span>
 					</a>
 				</li>
-				<!--<li class="<%=tabGetir("filmekle") %> i_32_forms">
-					<a href="forms.html" title="Some Fields">
-						<span class="tab_label">Forms</span>
-						<span class="tab_info">Some Fields</span>
+				<li class="<%=tabGetir("afisler") %> i_32_forms">
+					<a href="?pnl=afisler" title="Some Fields">
+						<span class="tab_label">Afişler</span>
+						<span class="tab_info">Optimize Et</span>
 					</a>
-				</li>-->
+				</li>
 			</ul>
 		</aside>
 
