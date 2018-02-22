@@ -21,6 +21,8 @@
     <IISExpressUseClassicPipelineMode />
     <Use64BitIISExpress />
     <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -92,6 +94,9 @@
     </Reference>
     <Reference Include="ImageResizer.Plugins.DiskCache, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ImageResizer.Plugins.DiskCache.4.2.0\lib\net45\ImageResizer.Plugins.DiskCache.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageResizer.Plugins.FriendlyUrls, Version=3.0.13.420, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ImageResizer.Plugins.FriendlyUrls.3.0.13\lib\ImageResizer.Plugins.FriendlyUrls.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -186,6 +191,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\upload\fz3-15178318373580\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.aspx" />
@@ -548,11 +554,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="favico.png" />
-    <Content Include="film-ekle\adminModuller\afis-optimize.ascx" />
     <Content Include="film-ekle\adminModuller\film-ekle.ascx" />
     <Content Include="film-ekle\adminModuller\kategoriler.ascx" />
     <Content Include="film-ekle\adminModuller\siteharitasi.ascx" />
-    <Content Include="film-ekle\adminModuller\yorumlar.ascx" />
+    <Content Include="film-ekle\adminModuller\film-listele.ascx" />
     <Content Include="film-ekle\CSS\colorbox.css" />
     <Content Include="film-ekle\CSS\colorpicker.css" />
     <Content Include="film-ekle\CSS\fullcalendar.css" />
@@ -814,9 +819,10 @@
     <Content Include="images\upload\uzaydan-gelen-firtina-izle.jpg" />
     <Content Include="images\yakinda.png" />
     <Content Include="Scripts\jquery.cookie.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
+    <Content Include="tasarim\css\preloader.css" />
     <Content Include="tasarim\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="HataLogDosyasi.txt" />
-    <Content Include="images\logo.png" />
     <Content Include="images\sil.png" />
     <Content Include="images\upload\ailecek-saskiniz-izle.jpg" />
     <Content Include="images\upload\barry-seal-kacakci-izle.jpg" />
@@ -1337,7 +1343,6 @@
     <Content Include="ulke.aspx" />
     <Content Include="yapim-yili.aspx" />
     <Content Include="yonetmen.aspx" />
-    <None Include="bundleconfig.json" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
@@ -1364,7 +1369,6 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Bundle.config" />
     <None Include="Project_Readme.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1399,13 +1403,6 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="film-ekle\adminModuller\afis-optimize.ascx.cs">
-      <DependentUpon>afis-optimize.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="film-ekle\adminModuller\afis-optimize.ascx.designer.cs">
-      <DependentUpon>afis-optimize.ascx</DependentUpon>
-    </Compile>
     <Compile Include="film-ekle\adminModuller\film-ekle.ascx.cs">
       <DependentUpon>film-ekle.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1427,12 +1424,12 @@
     <Compile Include="film-ekle\adminModuller\siteharitasi.ascx.designer.cs">
       <DependentUpon>siteharitasi.ascx</DependentUpon>
     </Compile>
-    <Compile Include="film-ekle\adminModuller\yorumlar.ascx.cs">
-      <DependentUpon>yorumlar.ascx</DependentUpon>
+    <Compile Include="film-ekle\adminModuller\film-listele.ascx.cs">
+      <DependentUpon>film-listele.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="film-ekle\adminModuller\yorumlar.ascx.designer.cs">
-      <DependentUpon>yorumlar.ascx</DependentUpon>
+    <Compile Include="film-ekle\adminModuller\film-listele.ascx.designer.cs">
+      <DependentUpon>film-listele.ascx</DependentUpon>
     </Compile>
     <Compile Include="film-ekle\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>

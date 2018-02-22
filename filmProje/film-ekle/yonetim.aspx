@@ -3,8 +3,8 @@
 <%@ Register Src="~/film-ekle/adminModuller/film-ekle.ascx" TagPrefix="uc1" TagName="filmekle" %>
 <%@ Register Src="~/film-ekle/adminModuller/kategoriler.ascx" TagPrefix="uc1" TagName="kategoriler" %>
 <%@ Register Src="~/film-ekle/adminModuller/siteharitasi.ascx" TagPrefix="uc1" TagName="siteharitasi" %>
-<%@ Register Src="~/film-ekle/adminModuller/yorumlar.ascx" TagPrefix="uc1" TagName="yorumlar" %>
-<%@ Register Src="~/film-ekle/adminModuller/afis-optimize.ascx" TagPrefix="uc1" TagName="afisoptimize" %>
+<%@ Register Src="~/film-ekle/adminModuller/film-listele.ascx" TagPrefix="uc1" TagName="filmlistele" %>
+
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -13,7 +13,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Panel ID="AnaPanel" runat="server">
-        <asp:Panel ID="pnlfilmlistele" runat="server" Visible="false"></asp:Panel>
+        <asp:Panel ID="pnlfilmlistele" runat="server" Visible="false">
+            <uc1:filmlistele runat="server" id="filmlistele" />
+        </asp:Panel>
         <asp:Panel ID="pnlfilmekle" runat="server" Visible="false">
             <uc1:filmekle runat="server" id="filmekle" />
         </asp:Panel>
@@ -24,10 +26,7 @@
             <uc1:siteharitasi runat="server" id="siteharitasi" />
         </asp:Panel>
         <asp:Panel ID="pnlyorumlar" Visible="false" runat="server">
-            <uc1:yorumlar runat="server" ID="yorumlar" />
-        </asp:Panel>
-        <asp:Panel ID="pnlafisler" Visible="false" runat="server">
-            <uc1:afisoptimize runat="server" id="afisoptimize" />
+            
         </asp:Panel>
     </asp:Panel>
 </asp:Content>

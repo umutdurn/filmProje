@@ -33,6 +33,7 @@ namespace filmProje
             if (url == "/" || url == "/default")
             {
                 pnlAnasayfa.Visible = true;
+                pnlCarousel.Visible = true;
             }
 
             if (!IsPostBack)

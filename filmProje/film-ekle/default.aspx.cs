@@ -19,9 +19,16 @@ namespace filmProje.film_ekle
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["ADMİN"] != null)
+            HttpCookie yildizCookie = Request.Cookies["adminGiris"];
+
+            if (yildizCookie != null)
             {
-                Response.Redirect("yonetim");
+                string yildizCookieGiris = Request.Cookies["adminGiris"]["giris"].ToString();
+
+                if (yildizCookieGiris == "girildi")
+                {
+                    Response.Redirect("yonetim");
+                }
             }
 
             if (dbBag.State == ConnectionState.Closed)
@@ -48,7 +55,9 @@ namespace filmProje.film_ekle
             dtrData = cmdKomut.ExecuteReader();
             if (dtrData.Read())
             {
-                Session["ADMİN"] = "Giriş";
+                Response.Cookies["adminGiris"]["giris"] = "girildi";
+                Response.Cookies["adminGiris"].Expires = DateTime.Now.AddYears(1);
+
                 Response.Redirect("yonetim");
             }
             else

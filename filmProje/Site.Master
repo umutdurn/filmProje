@@ -7,20 +7,35 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <asp:ContentPlaceHolder ID="headContent" runat="server">
-
     </asp:ContentPlaceHolder>
-    <!-- SEO -->  
     <meta name="author" content="seri filmizle">  
     <link rel="author" href="https://plus.google.com/117978790678177031694/posts"/>
     <asp:Literal ID="ltrCanonical" runat="server"></asp:Literal>
     <title></title>
-    <script async src="../Scripts/jquery-3.2.1.min.js"></script>
-    <link async href="tasarim/css/materialize.css" rel="stylesheet" />
+    <script async src="<%# ResolveUrl("~") %>/Scripts/jquery-3.2.1.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="~/favico.png" rel="shortcut icon" type="image/x-icon" />
-
+    <script>
+        window.addEventListener('load', function () { $('#filmLoader').addClass("kapat"); }, false);
+    </script>
+	<style>
+		#filmLoader{background:#fff;position:fixed;z-index:999;top:0;left:0;right:0;bottom:0}.preloader-wrapper{width:200px!important;height:200px!important;position:absolute!important;left:50%;top:50%;margin:-100px}
+	</style>
 </head>
 <body>
+    <div id="filmLoader">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+        </div>
+    </div>
     <form runat="server">
         <ul id="slide-out" class="side-nav">
             <asp:Repeater ID="rptKategorilerUst" runat="server" DataSourceID="rptKategoriler_db">
@@ -56,9 +71,10 @@
             </ul>
             <nav>
               <div class="nav-wrapper genelGenislik ortala">
-                <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
-                <a href="<%=Page.ResolveUrl("~/") %>" class="brand-logo">
-                    <img src="<%=Page.ResolveUrl("~/") %>images/logo.png" alt="film izle" width="200" height="53" />
+                <a href="#" data-activates="slide-out" class="button-collapse hide-large-and-up" title="film izle"><i class="material-icons">menu</i></a>
+                <a href="<%=Page.ResolveUrl("~/") %>" class="brand-logo" title="film izle">
+                    <i class="fa fa-video-camera" aria-hidden="true"></i><span class="logoInce">seri</span><span class="logoKalin">filmizle</span>
+                    <div class="clear"></div>
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tarihe Göre<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -69,13 +85,32 @@
             </nav>
         </div>
         <div class="tasiyici">
+            <asp:Panel ID="pnlCarousel" Visible="false" runat="server">
+                <div class="owl-carousel">
+                    <asp:SqlDataSource ID="rptSlider_DB" runat="server" ConnectionString="<%$ ConnectionStrings:constr %>" SelectCommand="SELECT TOP 10* FROM [film_Filmler] WHERE ([Slider] = @Slider) Order By ID Desc">
+                        <SelectParameters>
+                            <asp:Parameter DefaultValue="1" Name="Slider" Type="Int32" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+                    <asp:Repeater ID="rptSlider" runat="server" DataSourceID="rptSlider_DB">
+                        <ItemTemplate>
+                            <div class="slideItem">
+                                <a class="slideLink" href="film/<%#Eval("URL") %>" title="<%#Eval("OrjinalAdi") %> Filmi">
+                                    <i class="material-icons">play_arrow</i> 
+                                </a>
+                                <img src="images/upload/<%#Eval("Poster") %>?width=196&height=280&mode=max&quality=60" alt="<%#Eval("OrjinalAdi") %> Filmi" title="<%#Eval("OrjinalAdi") %> Filmi" />
+                            </div>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </div>
+            </asp:Panel>
             <main>
                 <div class="row">
-                    <section class="filmler col s12 m12 l9">
+                    <div class="filmler col s12 m12 l9">
                         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
                         <asp:ContentPlaceHolder ID="MainContent" runat="server">
                         </asp:ContentPlaceHolder>
-                    </section>
+                    </div>
                     <aside class="kenarlik col l3 hide-on-med-and-down">
                         <div class="aramakutusu arabosluk">
                             <h5 class="asiheh4">Filmlerde Ara</h5>
@@ -173,25 +208,55 @@
               <div class="footer-copyright">
                 <div class="footeriletisimDiv">
                 Sitemizden Full HD film izleyebilirsiniz.
-                <a class="grey-text text-lighten-4 right" href="mailto:serifilmizler@gmail.com">Telif Maili: serifilmizler@gmail.com</a>
+                <div class="grey-text text-lighten-4 right">Telif Maili: serifilmizler[at]gmail.com</div>
                 </div>
               </div>
             </footer>
         </div>
     </form>
+    
     <script src="<%=ResolveUrl("~") %>Scripts/materialize.min.js"></script>
+    <link href="<%=Page.ResolveUrl("~/") %>tasarim/css/materialize.css" rel="stylesheet" />
+    <script src="<%=Page.ResolveUrl("~/") %>Scripts/owl.carousel.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111347331-1"></script>
+<%--    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111347331-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'UA-111347331-1');
-    </script>
+    </script>--%>
 
-    <script type="text/javascript">
+    <script>
         $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 5,
+                nav: true,
+                navText: ["<i class=\"material-icons\">navigate_before</i>", "<i class=\"material-icons\">navigate_next</i>"],
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    400: {
+                        items: 2,
+                        nav: true
+                    },
+                    750: {
+                        items: 4,
+                        nav: false
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
             $(".button-collapse").sideNav();
             $('select').material_select();
         });

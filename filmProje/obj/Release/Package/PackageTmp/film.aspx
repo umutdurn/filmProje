@@ -4,12 +4,12 @@
     <asp:UpdatePanel ID="updIcerik" runat="server">
         <ContentTemplate>
             <div itemscope itemtype="http://schema.org/Movie">
-                <h1 class="filmanabaslik"><asp:Literal ID="ltrFilmAdi" runat="server"></asp:Literal></h1>
+                <h1 class="filmanabaslik"><a href="<%=Request.RawUrl %>" title="<%=filmAdi() %>"><asp:Literal ID="ltrFilmAdi" runat="server"></asp:Literal></a></h1>
                 <div class="orjinalAdi">Orjinal Adı: <strong><span itemprop="name"><asp:Literal ID="ltrOrjinalAdi" runat="server"></asp:Literal></span></strong></div>
                 <div id="partSec">
-                    <asp:Repeater ID="rptPartlar" runat="server" OnItemCommand="rptPartlar_ItemCommand">
+                    <asp:Repeater ID="rptPartlar" runat="server">
                         <ItemTemplate>
-                            <asp:Button ID="btnPart" runat="server" Text='<%#Eval("PartAdi") %>' CssClass="waves-effect waves-light btn partbtnpadding" CommandName="partgetir" CommandArgument='<%#Eval("ID") %>' />
+                            <a href="<%#UrlGetir(Container.ItemIndex+"_"+Eval("Dil").ToString()) %>" title="<%#Eval("Dil") %>" class="waves-effect waves-light btn partbtnpadding <%#Eval("Dil").ToString() == "Fragman" ? "fragmanpart" : "" %>"><%#Eval("PartAdi") %></a>
                         </ItemTemplate>
                     </asp:Repeater>
                 </div>
@@ -19,6 +19,12 @@
                             <meta itemprop="dateCreated" content="<%#String.Format("{0:yyy-MM-dd}", Convert.ToDateTime(Eval("OlusturmaTarihi")))%>">
                             <meta itemprop="inLanguage" content="tr">
                             <div class="iframePart">
+                                <div id="videoOnu" class="yukleniyor">
+                                     <div class="progress">
+                                        <div class="indeterminate"></div>
+                                     </div>
+                                    <span>Film yüklenirken lütfen bekleyin. <br /> Fragmanı geçmek için film yüklenirken "Part" seçebilirsiniz.</span>
+                                </div>
                                 <asp:Literal ID="ltrIframe" runat="server"></asp:Literal>
                             </div>
                             <div class="filmbilgileri">
@@ -148,7 +154,7 @@
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
-    <script type="text/javascript">
+    <script>
         function pageLoad(sender, args) {
             $(document).ready(function () {
                 var kontrol = 0;
@@ -172,6 +178,13 @@
                         $(".aciklamaDevami").addClass("heightSifir");
                     }
                 });
+
+                function explode() {
+
+                    $("#videoOnu").addClass("kapat");
+
+                }
+                setTimeout(explode, 4000);
             });
         }
 	</script>

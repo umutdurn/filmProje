@@ -76,6 +76,33 @@ namespace filmProje {
         protected global::System.Web.UI.WebControls.Repeater rptKategoriler;
         
         /// <summary>
+        /// pnlCarousel denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlCarousel;
+        
+        /// <summary>
+        /// rptSlider_DB denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource rptSlider_DB;
+        
+        /// <summary>
+        /// rptSlider denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptSlider;
+        
+        /// <summary>
         /// ScriptManager1 denetimi.
         /// </summary>
         /// <remarks>

@@ -2398,3 +2398,25 @@
 .clearfix {
     clear:both;
 }
+.listTable {
+    width:100%;
+}
+    .listTable td {
+        padding:10px 0;
+        font-size:13px;
+    }
+    .listTable strong {
+        font-size:16px;
+    }
+    .listTable ul {
+        list-style:none;
+        padding:0;
+    }
+        .listTable ul li {
+            float:left;
+            margin-right:15px;
+            display:block;
+        }
+.center{
+    text-align:center;
+}

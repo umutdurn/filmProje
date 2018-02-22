@@ -34,27 +34,27 @@ namespace filmProje
             }
         }
 
-        void Application_PreRequestHandlerExecute(object sender, EventArgs e)
-        {
-            HttpApplication app = sender as HttpApplication;
-            string acceptEncoding = app.Request.Headers["Accept-Encoding"];
-            Stream prevUncompressedStream = app.Response.Filter;
+        //void Application_PreRequestHandlerExecute(object sender, EventArgs e)
+        //{
+        //    HttpApplication app = sender as HttpApplication;
+        //    string acceptEncoding = app.Request.Headers["Accept-Encoding"];
+        //    Stream prevUncompressedStream = app.Response.Filter;
 
-            if (!(app.Context.CurrentHandler is Page ||
-                app.Context.CurrentHandler.GetType().Name == "SyncSessionlessHandler") ||
-                app.Request["HTTP_X_MICROSOFTAJAX"] != null)
-                return;
+        //    if (!(app.Context.CurrentHandler is Page ||
+        //        app.Context.CurrentHandler.GetType().Name == "SyncSessionlessHandler") ||
+        //        app.Request["HTTP_X_MICROSOFTAJAX"] != null)
+        //        return;
 
-            if (acceptEncoding == null || acceptEncoding.Length == 0)
-                return;
+        //    if (acceptEncoding == null || acceptEncoding.Length == 0)
+        //        return;
 
-            acceptEncoding = acceptEncoding.ToLower();
+        //    acceptEncoding = acceptEncoding.ToLower();
 
-            // gzip
-            app.Response.Filter = new GZipStream(prevUncompressedStream,
-                CompressionMode.Compress);
-            app.Response.AppendHeader("Content-Encoding", "gzip");
-        }
+        //    // gzip
+        //    app.Response.Filter = new GZipStream(prevUncompressedStream,
+        //        CompressionMode.Compress);
+        //    app.Response.AppendHeader("Content-Encoding", "gzip");
+        //}
 
 
     }

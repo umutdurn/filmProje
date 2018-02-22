@@ -33,6 +33,8 @@ E:\Projelerim\filmProje\filmProje\bin\EntityFramework.dll
 E:\Projelerim\filmProje\filmProje\bin\EntityFramework.SqlServer.dll
 E:\Projelerim\filmProje\filmProje\bin\EntityFramework.SqlServerCompact.dll
 E:\Projelerim\filmProje\filmProje\bin\ImageProcessor.dll
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.dll
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.Plugins.DiskCache.dll
 E:\Projelerim\filmProje\filmProje\bin\Microsoft.AspNet.FriendlyUrls.dll
 E:\Projelerim\filmProje\filmProje\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
 E:\Projelerim\filmProje\filmProje\bin\Microsoft.Owin.dll
@@ -60,6 +62,8 @@ E:\Projelerim\filmProje\filmProje\bin\CKSource.FileSystem.xml
 E:\Projelerim\filmProje\filmProje\bin\EntityFramework.xml
 E:\Projelerim\filmProje\filmProje\bin\EntityFramework.SqlServer.xml
 E:\Projelerim\filmProje\filmProje\bin\EntityFramework.SqlServerCompact.xml
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.xml
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.Plugins.DiskCache.xml
 E:\Projelerim\filmProje\filmProje\bin\Microsoft.Owin.xml
 E:\Projelerim\filmProje\filmProje\bin\Newtonsoft.Json.xml
 E:\Projelerim\filmProje\filmProje\bin\NLog.xml
@@ -69,14 +73,12 @@ E:\Projelerim\filmProje\filmProje\bin\System.Web.Http.WebHost.xml
 E:\Projelerim\filmProje\filmProje\bin\System.Web.Optimization.xml
 E:\Projelerim\filmProje\filmProje\bin\Antlr3.Runtime.pdb
 E:\Projelerim\filmProje\filmProje\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Projelerim\filmProje\filmProje\bin\tr\System.Net.Http.Formatting.resources.dll
+E:\Projelerim\filmProje\filmProje\bin\tr\System.Web.Http.resources.dll
+E:\Projelerim\filmProje\filmProje\bin\tr\System.Web.Http.WebHost.resources.dll
 E:\Projelerim\filmProje\filmProje\obj\Release\filmProje.csprojResolveAssemblyReference.cache
 E:\Projelerim\filmProje\filmProje\obj\Release\filmProje.csproj.CoreCompileInputs.cache
 E:\Projelerim\filmProje\filmProje\obj\Release\filmProje.dll
 E:\Projelerim\filmProje\filmProje\obj\Release\filmProje.pdb
-E:\Projelerim\filmProje\filmProje\bin\ImageResizer.dll
-E:\Projelerim\filmProje\filmProje\bin\ImageResizer.xml
-E:\Projelerim\filmProje\filmProje\bin\tr\System.Net.Http.Formatting.resources.dll
-E:\Projelerim\filmProje\filmProje\bin\tr\System.Web.Http.resources.dll
-E:\Projelerim\filmProje\filmProje\bin\tr\System.Web.Http.WebHost.resources.dll
-E:\Projelerim\filmProje\filmProje\bin\ImageResizer.Plugins.DiskCache.dll
-E:\Projelerim\filmProje\filmProje\bin\ImageResizer.Plugins.DiskCache.xml
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.Plugins.FriendlyUrls.dll
+E:\Projelerim\filmProje\filmProje\bin\ImageResizer.Plugins.FriendlyUrls.xml

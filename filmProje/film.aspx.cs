@@ -134,6 +134,22 @@ namespace filmProje
             return rating;
         }
 
+        public string filmAdi() {
+
+            string adi = "";
+
+            cmdKomut = new SqlCommand("Select * From film_Filmler Where URL = '" + segmentler[0] + "'", dbBag);
+            dtrData = cmdKomut.ExecuteReader();
+            if (dtrData.Read())
+            {
+                adi = dtrData["Baslik"].ToString();
+            }
+            dtrData.Close();
+
+            return adi;
+
+        }
+
         protected void filmgetir() {
 
             dtrAdapt = new SqlDataAdapter("Select * From film_Filmler Where URL = '" + segmentler[0] + "'", dbBag);
@@ -144,15 +160,30 @@ namespace filmProje
             ltrFilmAdi.Text = dtTable.Rows[0]["Baslik"].ToString();
             ltrOrjinalAdi.Text = dtTable.Rows[0]["OrjinalAdi"].ToString();
             ltrFilmAdiYorum.Text = dtTable.Rows[0]["OrjinalAdi"].ToString();
-            Page.Title = dtTable.Rows[0]["Baslik"].ToString();
-            Page.MetaDescription = dtTable.Rows[0]["MetaDesc"].ToString();
+
+            string strBaslik = "";
+            string strDesc = "";
+
+            if (segmentler.Count > 1)
+            {
+                strBaslik = dtTable.Rows[0]["Baslik"].ToString() + " - Part " + segmentler[1];
+                strDesc = dtTable.Rows[0]["MetaDesc"].ToString() + " - Part " + segmentler[1];
+            }
+            else
+            {
+                strBaslik = dtTable.Rows[0]["Baslik"].ToString();
+                strDesc  = dtTable.Rows[0]["MetaDesc"].ToString();
+            }
+
+            Page.Title = strBaslik;
+            Page.MetaDescription = strDesc;
 
             MetaTags = new MetaTagInfo
             {
                 Description = Page.MetaDescription,
                 Image = "http://" + Request.Url.Host.ToLower() + "/images/upload/" + ViewState["filmAfis"].ToString(),
-                Site_Name = dtTable.Rows[0]["Baslik"].ToString(),
-                Title = dtTable.Rows[0]["Baslik"].ToString(),
+                Site_Name = strBaslik,
+                Title = strBaslik,
                 Type = "article",
                 Url = Request.Url.ToString()
             };
@@ -171,14 +202,27 @@ namespace filmProje
             dtrAdapt = new SqlDataAdapter("Select * From film_Partlar Where FilmID = '" + ViewState["filmID"].ToString() + "'", dbBag);
             dtrAdapt.Fill(dtTable);
 
-            literal.Text = dtTable.Rows[0]["Iframe"].ToString();
+            if (segmentler.Count == 1)
+            {
+                literal.Text = dtTable.Rows[0]["Iframe"].ToString();
+            }
+            else
+            {
+                int tblRow = Convert.ToInt32(segmentler[1]) - 1;
+
+                if (dtTable.Rows.Count <= tblRow)
+                {
+                    Response.Redirect(Page.ResolveUrl("~/film/") + segmentler[0]);
+                }
+                else
+                {
+                    literal.Text = dtTable.Rows[tblRow]["Iframe"].ToString();
+                }
+                
+            }
 
             rptPartlar.DataSource = dtTable;
             rptPartlar.DataBind();
-
-            Button btn = (Button)rptPartlar.Items[0].FindControl("btnPart");
-            btn.CssClass += " fragmanpart";
-
         }
 
         public string kategoriGetir(string katid) {
@@ -519,23 +563,23 @@ namespace filmProje
             return formatter.Deserialize(str);
         }
 
-        protected void rptPartlar_ItemCommand(object source, RepeaterCommandEventArgs e)
-        {
-            if (e.CommandName ==  "partgetir")
+        public string UrlGetir(string gelen) {
+
+            string[] degerler = gelen.Split('_');
+
+            string url = "";
+
+            if (degerler[1] == "Fragman")
             {
-                Literal literal = (Literal)rptfilm.Items[0].FindControl("ltrIframe");
-                Button btn = (Button)e.Item.FindControl("btnPart");
-                btn.CssClass += " scilenpart";
-
-                cmdKomut = new SqlCommand("Select * From film_Partlar Where ID = '" + e.CommandArgument.ToString() + "'", dbBag);
-                dtrData = cmdKomut.ExecuteReader();
-                if (dtrData.Read())
-                {
-                    literal.Text = dtrData["Iframe"].ToString();
-                }
-                dtrData.Close();
-
+                url = Page.ResolveUrl("~/film/") + segmentler[0];
             }
+            else
+            {
+                url = Page.ResolveUrl("~/film/") + segmentler[0] + "/" + (Convert.ToInt32(degerler[0]) + 1).ToString();
+            }
+
+            return url;
         }
+
     }
 }

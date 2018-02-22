@@ -1199,3 +1199,1361 @@ ClientConnectionId:00000000-0000-0000-0000-000000000000
 Error Number:53,State:0,Class:20
 
 
+Hata Zamanı 28.12.2017 23:17:01
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:17:16
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:18:38
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:23:27
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:23:32
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:23:49
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:25:02
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:27:53
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:29:02
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:33:38
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:33:55
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:34:43
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:34:58
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:35:09
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:35:28
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:35:53
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:35:53
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:39:25
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:41:00
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:41:48
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:42:39
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:43:00
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:49:24
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:49:54
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:50:21
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:50:39
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:51:13
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:51:38
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:54:13
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 28.12.2017 23:54:23
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:32:26
+System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 179
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:33:20
+System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 179
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:33:47
+System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 179
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:33:53
+System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 179
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:34:04
+System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 179
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:34:36
+System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 179
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:34:47
+System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 179
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:35:05
+System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 179
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:35:28
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:35:41
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:35:41
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:36:11
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:36:44
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:37:20
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   konum: System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   konum: System.Web.UI.WebControls.Repeater.GetData()
+   konum: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   konum: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.Repeater.DataBind()
+   konum: System.Web.UI.WebControls.Repeater.EnsureDataBound()
+   konum: System.Web.UI.WebControls.Repeater.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 29.12.2017 22:37:45
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:37:45
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:37:55
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:37:55
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:52:14
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:53:36
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 22:59:01
+System.Web.HttpException (0x80004005): Sunucu etiketi biçimi uygun değil.
+   konum: System.Web.UI.TemplateParser.ProcessError(String message)
+   konum: System.Web.UI.TemplateParser.DetectSpecialServerTagError(String text, Int32 textPos)
+   konum: System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   konum: System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+
+Hata Zamanı 29.12.2017 23:00:50
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:09:33
+System.Web.HttpException (0x80004005): Sunucu etiketi biçimi uygun değil.
+   konum: System.Web.UI.TemplateParser.ProcessError(String message)
+   konum: System.Web.UI.TemplateParser.DetectSpecialServerTagError(String text, Int32 textPos)
+   konum: System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   konum: System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+
+Hata Zamanı 29.12.2017 23:10:01
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:10:35
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:17:23
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:17:25
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:21:45
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:21:45
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:22:20
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:23:31
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:25:20
+System.Web.HttpException (0x80004005): Denetimler koleksiyonu, denetim kod blokları (diğer bir deyişle, <% ... %>) içerdiğinden değiştirilemiyor.
+   konum: System.Web.UI.ControlCollection.Add(Control child)
+   konum: MetaTagGenerator.Generate(MetaTagInfo metaTagInfo) E:\Projelerim\filmProje\filmProje\MetaTagGenerator.cs içinde: satır 33
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 50
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:25:28
+System.Web.HttpException (0x80004005): Denetimler koleksiyonu, denetim kod blokları (diğer bir deyişle, <% ... %>) içerdiğinden değiştirilemiyor.
+   konum: System.Web.UI.ControlCollection.Add(Control child)
+   konum: MetaTagGenerator.Generate(MetaTagInfo metaTagInfo) E:\Projelerim\filmProje\filmProje\MetaTagGenerator.cs içinde: satır 33
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 50
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:25:43
+System.Web.HttpException (0x80004005): Denetimler koleksiyonu, denetim kod blokları (diğer bir deyişle, <% ... %>) içerdiğinden değiştirilemiyor.
+   konum: System.Web.UI.ControlCollection.Add(Control child)
+   konum: MetaTagGenerator.Generate(MetaTagInfo metaTagInfo) E:\Projelerim\filmProje\filmProje\MetaTagGenerator.cs içinde: satır 33
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 50
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:25:46
+System.Web.HttpException (0x80004005): Denetimler koleksiyonu, denetim kod blokları (diğer bir deyişle, <% ... %>) içerdiğinden değiştirilemiyor.
+   konum: System.Web.UI.ControlCollection.Add(Control child)
+   konum: MetaTagGenerator.Generate(MetaTagInfo metaTagInfo) E:\Projelerim\filmProje\filmProje\MetaTagGenerator.cs içinde: satır 33
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 50
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:25:56
+System.Web.HttpException (0x80004005): Denetimler koleksiyonu, denetim kod blokları (diğer bir deyişle, <% ... %>) içerdiğinden değiştirilemiyor.
+   konum: System.Web.UI.ControlCollection.Add(Control child)
+   konum: MetaTagGenerator.Generate(MetaTagInfo metaTagInfo) E:\Projelerim\filmProje\filmProje\MetaTagGenerator.cs içinde: satır 33
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 50
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:31:06
+System.ArgumentOutOfRangeException: Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index
+   konum: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   konum: System.Collections.Generic.List`1.get_Item(Int32 index)
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 43
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:37:34
+System.IndexOutOfRangeException: 3 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 180
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:38:46
+System.IndexOutOfRangeException: 9 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 180
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:49:04
+System.ArgumentOutOfRangeException: Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index
+   konum: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   konum: System.Collections.Generic.List`1.get_Item(Int32 index)
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 174
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:50:38
+System.IndexOutOfRangeException: 4 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.partGetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 188
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 42
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:54:41
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:57:24
+System.ArgumentOutOfRangeException: Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index
+   konum: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   konum: System.Collections.Generic.List`1.get_Item(Int32 index)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 159
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:57:32
+System.ArgumentOutOfRangeException: Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index
+   konum: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   konum: System.Collections.Generic.List`1.get_Item(Int32 index)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 159
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:57:56
+System.ArgumentOutOfRangeException: Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index
+   konum: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   konum: System.Collections.Generic.List`1.get_Item(Int32 index)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 159
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 29.12.2017 23:58:10
+System.ArgumentOutOfRangeException: Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index
+   konum: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   konum: System.Collections.Generic.List`1.get_Item(Int32 index)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 159
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 30.12.2017 15:43:06
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje._Default.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\Default.aspx.cs içinde: satır 30
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 30.12.2017 15:53:26
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje._Default.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\Default.aspx.cs içinde: satır 30
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 30.12.2017 15:53:26
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   konum: System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   konum: System.Web.UI.WebControls.Repeater.GetData()
+   konum: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   konum: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.Repeater.DataBind()
+   konum: System.Web.UI.WebControls.Repeater.EnsureDataBound()
+   konum: System.Web.UI.WebControls.Repeater.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 30.12.2017 18:22:46
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 30.12.2017 18:27:06
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 30.12.2017 18:32:02
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje.SiteMaster.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\Site.Master.cs içinde: satır 24
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:3eb80ed1-6059-476a-9f1a-8995e36e55e0
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 1.01.2018 21:18:22
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   konum: System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   konum: System.Web.UI.WebControls.Repeater.GetData()
+   konum: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   konum: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.Repeater.DataBind()
+   konum: System.Web.UI.WebControls.Repeater.EnsureDataBound()
+   konum: System.Web.UI.WebControls.Repeater.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 1.01.2018 21:18:53
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 1.01.2018 21:19:55
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 142
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 1.01.2018 21:22:44
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 158
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 1.01.2018 21:24:00
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 158
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 1.01.2018 21:25:52
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   konum: System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   konum: System.Web.UI.WebControls.Repeater.GetData()
+   konum: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   konum: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.Repeater.DataBind()
+   konum: System.Web.UI.WebControls.Repeater.EnsureDataBound()
+   konum: System.Web.UI.WebControls.Repeater.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 1.01.2018 21:26:05
+System.IndexOutOfRangeException: 0 konumunda satır yok.
+   konum: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   konum: filmProje.film.filmgetir() E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 158
+   konum: filmProje.film.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film.aspx.cs içinde: satır 41
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 3.02.2018 21:21:10
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje._Default.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\Default.aspx.cs içinde: satır 30
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 3.02.2018 21:22:00
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje._Default.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\Default.aspx.cs içinde: satır 30
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 3.02.2018 21:23:12
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje.film_ekle._default.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film-ekle\default.aspx.cs içinde: satır 27
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 3.02.2018 21:24:48
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje._Default.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\Default.aspx.cs içinde: satır 30
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 3.02.2018 21:27:36
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'umcoder'.
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje._Default.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\Default.aspx.cs içinde: satır 30
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:497c8af4-71d4-4a22-bfa0-2289bb2c51fd
+Error Number:18456,State:1,Class:14
+
+
+Hata Zamanı 3.02.2018 21:27:41
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'umcoder'.
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje._Default.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\Default.aspx.cs içinde: satır 30
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:cef5e40a-0dbb-4574-8b99-e17c1166b362
+Error Number:18456,State:1,Class:14
+
+
+Hata Zamanı 3.02.2018 21:27:42
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'umcoder'.
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: filmProje.Veritabani.dbBaglanti() E:\Projelerim\filmProje\filmProje\Veritabani.cs içinde: satır 20
+   konum: filmProje._Default.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\Default.aspx.cs içinde: satır 30
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:be93a2c6-34af-435d-ba24-eae50da214e1
+Error Number:18456,State:1,Class:14
+
+
+Hata Zamanı 3.02.2018 21:30:58
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   konum: System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   konum: System.Web.UI.WebControls.Repeater.GetData()
+   konum: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   konum: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.Repeater.DataBind()
+   konum: System.Web.UI.WebControls.Repeater.EnsureDataBound()
+   konum: System.Web.UI.WebControls.Repeater.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+
+Hata Zamanı 5.02.2018 12:42:54
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'Desc'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: filmProje.film_ekle.adminModuller.yorumlar.filmGetir() E:\Projelerim\filmProje\filmProje\film-ekle\adminModuller\film-listele.ascx.cs içinde: satır 37
+   konum: filmProje.film_ekle.adminModuller.yorumlar.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film-ekle\adminModuller\film-listele.ascx.cs içinde: satır 29
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:814d7de6-faa6-4f64-9921-85e2ec372601
+Error Number:156,State:1,Class:15
+
+
+Hata Zamanı 5.02.2018 12:49:25
+System.ArgumentException: rptFilmler için kullanılan veri kaynağı geçersiz. Geçerli bir veri kaynağı IListSource veya IEnumerable uygulamalıdır.
+   konum: System.Web.UI.WebControls.Repeater.set_DataSource(Object value)
+   konum: filmProje.film_ekle.adminModuller.yorumlar.filmGetir() E:\Projelerim\filmProje\filmProje\film-ekle\adminModuller\film-listele.ascx.cs içinde: satır 42
+   konum: filmProje.film_ekle.adminModuller.yorumlar.Page_Load(Object sender, EventArgs e) E:\Projelerim\filmProje\filmProje\film-ekle\adminModuller\film-listele.ascx.cs içinde: satır 29
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Hata Zamanı 5.02.2018 13:23:52
+System.Web.HttpCompileException (0x80004005): e:\Projelerim\filmProje\filmProje\film-ekle\adminModuller\film-listele.ascx(70): error CS0030: 'string' türü 'bool' türüne dönüştürülemez
+   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   konum: System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   konum: System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   konum: System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   konum: System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   konum: System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   konum: System.Web.UI.PageParser.ProcessDirective(String directiveName, IDictionary directive)
+   konum: System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+Hata Zamanı 5.02.2018 14:30:12
+System.Data.SqlClient.SqlException (0x80131904): Sunucuyla bağlantı kurulurken ağ ile ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı veya sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzak bağlantılara izin verdiğini doğrulayın. (provider: Named Pipes Provider, error: 40 - SQL Server için bağlantı açılamadı) ---> System.ComponentModel.Win32Exception (0x80004005): Ağ yolu bulunamadı
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   konum: System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   konum: System.Web.UI.WebControls.Repeater.GetData()
+   konum: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   konum: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.Repeater.DataBind()
+   konum: System.Web.UI.WebControls.Repeater.EnsureDataBound()
+   konum: System.Web.UI.WebControls.Repeater.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+

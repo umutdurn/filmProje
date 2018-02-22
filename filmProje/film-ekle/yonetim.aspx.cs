@@ -11,7 +11,9 @@ namespace filmProje.film_ekle
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["ADMİN"] == null)
+            HttpCookie yildizCookie = Request.Cookies["adminGiris"];
+
+            if (yildizCookie == null)
             {
                 Response.Redirect("default");
             }
